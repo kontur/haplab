@@ -1,33 +1,14 @@
 /*
-  This code was generated in Neonto Proto Studio:
+  This code was generated in Neonto Studio Personal Edition:
   
     http://www.neonto.com
   
-  You may freely use this code for:
+  You may use this code ONLY for non-commercial purposes and evaluation.
+  Reusing any part of this code for commercial purposes is not permitted.
   
-    ✔︎ Prototyping
-    ✔︎ Distribution directly to devices
-    ✔︎ App store distribution for free apps
-    ✔︎ App store distribution using a personal account
-  
-  The following use cases are restricted to Neonto Production & Team Edition only:
-  
-    - App store distribution using a company account
-    - App store distribution involving upfront purchase or in-app purchases
-    - Internal enterprise distribution
-  
-  This license restriction also applies to any reuse of portions of this code.
-  
-  
-  Would you like to have unlimited use of generated code?
-  Upgrade to Neonto Studio Production & Team Edition. It has no restrictions --
-  everything you export will be yours to use.
-  
-  In fact, the Production & Team Edition lets you place your own copyright
-  in ALL the code. You simply own everything, so there's no question of licensing!
-  
-  It also has advanced export options like customized bundle IDs and App Store
-  publishing settings.
+  Would you like to remove this restriction?
+  With Neonto's flexible licensing options, you can have your own copyright
+  in all this code.
   
   Find out more -- click 'Upgrade to Pro' in Neonto Studio's toolbar.
   
@@ -201,7 +182,7 @@
 
     [rootView addSubview:self.elemButtonnext];
     
-    HAPTouchTargets2ButtonpreviousView *elemButtonprevious = [[HAPTouchTargets2ButtonpreviousView alloc] initWithFrame:CGRectMake(63.8, 549.2, 18.2, 28.6)];
+    HAPTouchTargets2ButtonpreviousView *elemButtonprevious = [[HAPTouchTargets2ButtonpreviousView alloc] initWithFrame:CGRectMake(63.8, 548.2, 18.2, 29.6)];
     self.elemButtonprevious = elemButtonprevious;
 
     elemButtonprevious.userInteractionEnabled = NO;
@@ -720,11 +701,11 @@
     [self applyLayout:layoutDescs_elemButtonnext toView:self.elemButtonnext format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemButtonprevious = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(62.0, NAN, 18.48, 28.97)], [NSValue valueWithCGPoint:CGPointMake(0.0, 380.03)], @{ @"offsetToHorizontalKeylineB": @(22.92), @"bottomEdgeOffset": @(71.0+yOff) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(61.5, NAN, 18.26, 28.62)], [NSValue valueWithCGPoint:CGPointMake(0.0, 460.08)], @{ @"offsetToHorizontalKeylineB": @(22.64), @"bottomEdgeOffset": @(79.3+yOff) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(63.7, NAN, 17.30, 27.13)], [NSValue valueWithCGPoint:CGPointMake(0.0, 613.94)], @{ @"offsetToHorizontalKeylineB": @(21.46), @"bottomEdgeOffset": @(94.93+yOff) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(83.4, NAN, 18.15, 28.96)], [NSValue valueWithCGPoint:CGPointMake(0.0, 869.64)], @{ @"offsetToHorizontalKeylineB": @(22.50), @"bottomEdgeOffset": @(125.4+yOff) } ],  // ipad_portrait
-    @[@18, [NSValue valueWithCGRect:CGRectMake(63.75, NAN, 18.24, 28.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 549.21)], @{ @"offsetToHorizontalKeylineB": @(22.61), @"bottomEdgeOffset": @(89.2+yOff) } ],  // iphone6_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(62.0, NAN, 18.48, 29.97)], [NSValue valueWithCGPoint:CGPointMake(0.0, 379.03)], @{ @"offsetToHorizontalKeylineB": @(22.92), @"bottomEdgeOffset": @(71.0+yOff) } ],  // iphoneclassic_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(61.5, NAN, 18.26, 29.61)], [NSValue valueWithCGPoint:CGPointMake(0.0, 459.09)], @{ @"offsetToHorizontalKeylineB": @(22.64), @"bottomEdgeOffset": @(79.3+yOff) } ],  // iphone5_portrait
+    @[@20, [NSValue valueWithCGRect:CGRectMake(63.7, NAN, 17.30, 28.06)], [NSValue valueWithCGPoint:CGPointMake(0.0, 613.0)], @{ @"offsetToHorizontalKeylineB": @(21.46), @"bottomEdgeOffset": @(94.93+yOff) } ],  // iphone6plus_portrait
+    @[@16, [NSValue valueWithCGRect:CGRectMake(83.4, NAN, 18.15, 28.76)], [NSValue valueWithCGPoint:CGPointMake(0.0, 869.84)], @{ @"offsetToHorizontalKeylineB": @(22.50), @"bottomEdgeOffset": @(125.4+yOff) } ],  // ipad_portrait
+    @[@18, [NSValue valueWithCGRect:CGRectMake(63.75, NAN, 18.24, 29.57)], [NSValue valueWithCGPoint:CGPointMake(0.0, 548.23)], @{ @"offsetToHorizontalKeylineB": @(22.61), @"bottomEdgeOffset": @(89.2+yOff) } ],  // iphone6_portrait
     ];
     NSDictionary *override_elemButtonprevious = [_overrideElementLayoutDescriptors objectForKey:@"button-previous"];
     if ((val = [override_elemButtonprevious objectForKey:@"layoutDescs"]))

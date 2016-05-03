@@ -1,33 +1,14 @@
 /*
-  This code was generated in Neonto Proto Studio:
+  This code was generated in Neonto Studio Personal Edition:
   
     http://www.neonto.com
   
-  You may freely use this code for:
+  You may use this code ONLY for non-commercial purposes and evaluation.
+  Reusing any part of this code for commercial purposes is not permitted.
   
-    ✔︎ Prototyping
-    ✔︎ Distribution directly to devices
-    ✔︎ App store distribution for free apps
-    ✔︎ App store distribution using a personal account
-  
-  The following use cases are restricted to Neonto Production & Team Edition only:
-  
-    - App store distribution using a company account
-    - App store distribution involving upfront purchase or in-app purchases
-    - Internal enterprise distribution
-  
-  This license restriction also applies to any reuse of portions of this code.
-  
-  
-  Would you like to have unlimited use of generated code?
-  Upgrade to Neonto Studio Production & Team Edition. It has no restrictions --
-  everything you export will be yours to use.
-  
-  In fact, the Production & Team Edition lets you place your own copyright
-  in ALL the code. You simply own everything, so there's no question of licensing!
-  
-  It also has advanced export options like customized bundle IDs and App Store
-  publishing settings.
+  Would you like to remove this restriction?
+  With Neonto's flexible licensing options, you can have your own copyright
+  in all this code.
   
   Find out more -- click 'Upgrade to Pro' in Neonto Studio's toolbar.
   
@@ -236,7 +217,7 @@
     [rootView addSubview:self.elemHotspotClose];
     
     UIButton *elemHotspot = [UIButton buttonWithType:UIButtonTypeSystem];
-    elemHotspot.frame = CGRectMake(148.0, 502.5, 79.1, 135.7);
+    elemHotspot.frame = CGRectMake(148.0, 508.7, 79.1, 158.3);
     self.elemHotspot = elemHotspot;
 
     [elemHotspot setTitle:@"" forState:UIControlStateNormal];
@@ -664,8 +645,8 @@
     [self applyLayout:layoutDescs_elemButtonnext toView:self.elemButtonnext format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemCirclePage = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(206.0, NAN, 22.92, 22.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 384.08)], @{ @"offsetToHorizontalKeylineB": @(25.21), @"bottomEdgeOffset": @(73.0+yOff) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(205.0, NAN, 22.64, 22.64)], [NSValue valueWithCGPoint:CGPointMake(0.0, 463.56)], @{ @"offsetToHorizontalKeylineB": @(24.91), @"bottomEdgeOffset": @(81.8+yOff) } ],  // iphone5_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(206.0, NAN, 22.92, 22.43)], [NSValue valueWithCGPoint:CGPointMake(0.0, 384.57)], @{ @"offsetToHorizontalKeylineB": @(25.21), @"bottomEdgeOffset": @(73.0+yOff) } ],  // iphoneclassic_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(205.0, NAN, 22.64, 22.15)], [NSValue valueWithCGPoint:CGPointMake(0.0, 464.05)], @{ @"offsetToHorizontalKeylineB": @(24.91), @"bottomEdgeOffset": @(81.8+yOff) } ],  // iphone5_portrait
     @[@20, [NSValue valueWithCGRect:CGRectMake(250.0, NAN, 21.46, 21.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 617.73)], @{ @"offsetToHorizontalKeylineB": @(23.60), @"bottomEdgeOffset": @(97.27+yOff) } ],  // iphone6plus_portrait
     @[@16, [NSValue valueWithCGRect:CGRectMake(429.0, NAN, 22.50, 22.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 874.10)], @{ @"offsetToHorizontalKeylineB": @(24.75), @"bottomEdgeOffset": @(127.4+yOff) } ],  // ipad_portrait
     @[@18, [NSValue valueWithCGRect:CGRectMake(232.5, NAN, 22.61, 22.61)], [NSValue valueWithCGPoint:CGPointMake(0.0, 552.69)], @{ @"offsetToHorizontalKeylineB": @(24.88), @"bottomEdgeOffset": @(91.7+yOff) } ],  // iphone6_portrait
@@ -736,11 +717,11 @@
     [self applyLayout:layoutDescs_elemHotspotClose toView:self.elemHotspotClose format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemHotspot = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(120.0, 509.5+yOff, 80.21, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 509.5)]],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(120.5, 503.5+yOff, 79.24, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 503.5)]],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(169.33, 477.0+yOff, 75.11, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 477.0)]],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(345.0, 500.0+yOff, 78.75, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 500.0)]],  // ipad_portrait
-    @[@18, [NSValue valueWithCGRect:CGRectMake(148.0, 502.5+yOff, 79.15, 135.68)], [NSValue valueWithCGPoint:CGPointMake(0.0, 502.5)]],  // iphone6_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(120.0, NAN, 80.21, 160.42)], [NSValue valueWithCGPoint:CGPointMake(0.0, 319.58)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(120.5, NAN, 79.24, 158.49)], [NSValue valueWithCGPoint:CGPointMake(0.0, 409.51)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_portrait
+    @[@20, [NSValue valueWithCGRect:CGRectMake(169.33, NAN, 75.11, 150.21)], [NSValue valueWithCGPoint:CGPointMake(0.0, 585.79)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_portrait
+    @[@16, [NSValue valueWithCGRect:CGRectMake(345.0, NAN, 78.75, 157.51)], [NSValue valueWithCGPoint:CGPointMake(0.0, 866.49)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
+    @[@18, [NSValue valueWithCGRect:CGRectMake(148.0, NAN, 79.15, 158.30)], [NSValue valueWithCGPoint:CGPointMake(0.0, 508.70)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
     ];
     NSDictionary *override_elemHotspot = [_overrideElementLayoutDescriptors objectForKey:@"hotspot"];
     if ((val = [override_elemHotspot objectForKey:@"layoutDescs"]))
