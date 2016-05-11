@@ -44,8 +44,7 @@
 
 @interface HAPV2hand4ViewController ()
 - (void)backgroundClicked:(id)sender;
-@property (nonatomic) HAPV2hand4BackgroundShapeView *elemBackgroundShape;
-@property (nonatomic) HAPV2hand4BackgroundtwohandlandscapeView *elemBackgroundtwohandlandscape;
+@property (nonatomic) HAPV2hand4Backgroundtwohandlandscape05alphaView *elemBackgroundtwohandlandscape05alpha;
 @property (nonatomic) HAPV2hand4TextBackgroundView *elemTextBackground;
 @property (nonatomic) UILabel *elemTextBlock2;
 @property (nonatomic) UILabel *elemTextBlockCopy;
@@ -99,19 +98,12 @@
 
     rootView.clipsToBounds = YES;
 
-    HAPV2hand4BackgroundShapeView *elemBackgroundShape = [[HAPV2hand4BackgroundShapeView alloc] initWithFrame:CGRectMake(0.0, 0.0, 375.0, 667.0)];
-    self.elemBackgroundShape = elemBackgroundShape;
+    HAPV2hand4Backgroundtwohandlandscape05alphaView *elemBackgroundtwohandlandscape05alpha = [[HAPV2hand4Backgroundtwohandlandscape05alphaView alloc] initWithFrame:CGRectMake(0.0, 0.0, 375.0, 667.0)];
+    self.elemBackgroundtwohandlandscape05alpha = elemBackgroundtwohandlandscape05alpha;
 
-    elemBackgroundShape.userInteractionEnabled = NO;
+    elemBackgroundtwohandlandscape05alpha.userInteractionEnabled = NO;
 
-    [rootView addSubview:self.elemBackgroundShape];
-    
-    HAPV2hand4BackgroundtwohandlandscapeView *elemBackgroundtwohandlandscape = [[HAPV2hand4BackgroundtwohandlandscapeView alloc] initWithFrame:CGRectMake(0.0, 0.0, 375.0, 667.0)];
-    self.elemBackgroundtwohandlandscape = elemBackgroundtwohandlandscape;
-
-    elemBackgroundtwohandlandscape.userInteractionEnabled = NO;
-
-    [rootView addSubview:self.elemBackgroundtwohandlandscape];
+    [rootView addSubview:self.elemBackgroundtwohandlandscape05alpha];
     
     HAPV2hand4TextBackgroundView *elemTextBackground = [[HAPV2hand4TextBackgroundView alloc] initWithFrame:CGRectMake(18.8, 88.4, 338.0, 512.4)];
     self.elemTextBackground = elemTextBackground;
@@ -550,7 +542,7 @@
         format = (screenDim <= 480.0) ? 3 : (screenDim <= 568.0 ? 5 : (screenDim <= 667.0 ? 17 : 19));
         if (isPortrait) format++;
     }
-    NSArray *layoutDescs_elemBackgroundShape = @[
+    NSArray *layoutDescs_elemBackgroundtwohandlandscape05alpha = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 480.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
     @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 568.0, 320.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 375.0, 667.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
@@ -562,27 +554,10 @@
     @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 1024.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
     @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 667.0, 375.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_landscape
     ];
-    NSDictionary *override_elemBackgroundShape = [_overrideElementLayoutDescriptors objectForKey:@"background shape"];
-    if ((val = [override_elemBackgroundShape objectForKey:@"layoutDescs"]))
-       layoutDescs_elemBackgroundShape = val;
-    [self applyLayout:layoutDescs_elemBackgroundShape toView:self.elemBackgroundShape format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
-    
-    NSArray *layoutDescs_elemBackgroundtwohandlandscape = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 480.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
-    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 568.0, 320.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_landscape
-    @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 375.0, 667.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 568.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_portrait
-    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 1024.0, 768.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_landscape
-    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 736.0, 414.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_landscape
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 736.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_portrait
-    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 480.0, 320.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_landscape
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 1024.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
-    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 667.0, 375.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_landscape
-    ];
-    NSDictionary *override_elemBackgroundtwohandlandscape = [_overrideElementLayoutDescriptors objectForKey:@"background-two-hand-landscape"];
-    if ((val = [override_elemBackgroundtwohandlandscape objectForKey:@"layoutDescs"]))
-       layoutDescs_elemBackgroundtwohandlandscape = val;
-    NSArray *layoutAssocData_elemBackgroundtwohandlandscape = @[
+    NSDictionary *override_elemBackgroundtwohandlandscape05alpha = [_overrideElementLayoutDescriptors objectForKey:@"background-two-hand-landscape-0.5alpha"];
+    if ((val = [override_elemBackgroundtwohandlandscape05alpha objectForKey:@"layoutDescs"]))
+       layoutDescs_elemBackgroundtwohandlandscape05alpha = val;
+    NSArray *layoutAssocData_elemBackgroundtwohandlandscape05alpha = @[
       @[@4, @{
         @"contentTransformMatricesString": @"[1.280, 0.0, 0.0, 1.280, -266.880, 0.0]; [1.280, 0.0, 0.0, 1.280, -266.880, 0.0]",
       }],
@@ -614,7 +589,7 @@
         @"contentTransformMatricesString": @"[1.0, 0.0, 0.0, 1.0, 0.0, 0.0]; [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]",
       }],
     ];
-    [self applyLayout:layoutDescs_elemBackgroundtwohandlandscape toView:self.elemBackgroundtwohandlandscape format:format associatedData:layoutAssocData_elemBackgroundtwohandlandscape flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
+    [self applyLayout:layoutDescs_elemBackgroundtwohandlandscape05alpha toView:self.elemBackgroundtwohandlandscape05alpha format:format associatedData:layoutAssocData_elemBackgroundtwohandlandscape05alpha flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemTextBackground = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(16.0, 50.0+yOff, 288.5, 382.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 50.0)], @{ @"offsetToHorizontalKeylineT": @(45.83), @"offsetToHorizontalKeylineB": @(-0.00), @"bottomEdgeOffset": @(47.5+yOff) } ],  // iphoneclassic_portrait

@@ -37,8 +37,7 @@
 
 #import "HAPStartViewController.h"
 #import "HAPV1hand8ViewController.h"
-#import "HAPV1hand7BackgroundShapeView.h"
-#import "HAPV1hand7Backgroundonethumb2View.h"
+#import "HAPV1hand7Backgroundonethumb05alphaView.h"
 #import "HAPV1hand7RectangleView.h"
 #import "HAPV1hand7HamburgerView.h"
 #import "HAPV1hand7Buttonclose2View.h"

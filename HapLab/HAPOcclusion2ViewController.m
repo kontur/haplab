@@ -197,7 +197,7 @@
 
     [rootView addSubview:self.elemHotspotCopy];
     
-    HAPOcclusion2ThumbView *elemThumb = [[HAPOcclusion2ThumbView alloc] initWithFrame:CGRectMake(270.5, 496.0, 191.5, 231.0)];
+    HAPOcclusion2ThumbView *elemThumb = [[HAPOcclusion2ThumbView alloc] initWithFrame:CGRectMake(289.0, 436.0, 195.0, 231.0)];
     self.elemThumb = elemThumb;
 
     elemThumb.userInteractionEnabled = NO;
@@ -750,50 +750,50 @@
     [self applyLayout:layoutDescs_elemHotspotCopy toView:self.elemHotspotCopy format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemThumb = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(274.0, 503.0+yOff, 194.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 503.0)]],  // iphoneclassic_portrait
-    @[@5, [NSValue valueWithCGRect:CGRectMake(270.5, 496.5+yOff, 191.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.5)]],  // iphone5_landscape
-    @[@18, [NSValue valueWithCGRect:CGRectMake(270.5, 496.0+yOff, 191.5, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.0)]],  // iphone6_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(270.5, 496.5+yOff, 191.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.5)]],  // iphone5_portrait
-    @[@15, [NSValue valueWithCGRect:CGRectMake(269.0, 494.0+yOff, 191.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 494.0)]],  // ipad_landscape
-    @[@19, [NSValue valueWithCGRect:CGRectMake(256.67, 470.67+yOff, 181.67, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 470.67)]],  // iphone6plus_landscape
-    @[@20, [NSValue valueWithCGRect:CGRectMake(256.67, 470.67+yOff, 181.67, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 470.67)]],  // iphone6plus_portrait
-    @[@3, [NSValue valueWithCGRect:CGRectMake(274.0, 503.0+yOff, 194.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 503.0)]],  // iphoneclassic_landscape
-    @[@16, [NSValue valueWithCGRect:CGRectMake(269.0, 494.0+yOff, 191.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 494.0)]],  // ipad_portrait
-    @[@17, [NSValue valueWithCGRect:CGRectMake(270.5, 496.5+yOff, 191.5, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.5)]],  // iphone6_landscape
+    @[@4, [NSValue valueWithCGRect:CGRectMake(215.0, NAN, 198.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 246.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(537.0, NAN, 195.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 88.5)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_landscape
+    @[@18, [NSValue valueWithCGRect:CGRectMake(289.0, NAN, 195.0, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 436.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(217.5, NAN, 195.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 336.5)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(1127.0, NAN, 194.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 538.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(764.33, NAN, 185.0, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 194.67)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(349.0, NAN, 185.0, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 516.67)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(421.0, NAN, 198.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 86.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(797.0, NAN, 194.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 794.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(665.0, NAN, 195.5, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 144.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemThumb = [_overrideElementLayoutDescriptors objectForKey:@"thumb"];
     if ((val = [override_elemThumb objectForKey:@"layoutDescs"]))
        layoutDescs_elemThumb = val;
     NSArray *layoutAssocData_elemThumb = @[
       @[@4, @{
-        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]",
+        @"contentTransformMatricesString": @"[0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]; [0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]",
       }],
       @[@5, @{
-        @"contentTransformMatricesString": @"[0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]; [0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]",
+        @"contentTransformMatricesString": @"[0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]; [0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]",
       }],
       @[@18, @{
-        @"contentTransformMatricesString": @"[0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]; [0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]",
+        @"contentTransformMatricesString": @"[0.613207547, 0.0, 0.0, 0.613207547, 0.0, -2.235849057]; [0.613207547, 0.0, 0.0, 0.613207547, 0.0, -2.235849057]",
       }],
       @[@6, @{
-        @"contentTransformMatricesString": @"[0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]; [0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]",
+        @"contentTransformMatricesString": @"[0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]; [0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]",
       }],
       @[@15, @{
-        @"contentTransformMatricesString": @"[0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]; [0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]",
+        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]",
       }],
       @[@19, @{
-        @"contentTransformMatricesString": @"[0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]; [0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]",
+        @"contentTransformMatricesString": @"[0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]; [0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]",
       }],
       @[@20, @{
-        @"contentTransformMatricesString": @"[0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]; [0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]",
+        @"contentTransformMatricesString": @"[0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]; [0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]",
       }],
       @[@3, @{
-        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]",
+        @"contentTransformMatricesString": @"[0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]; [0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]",
       }],
       @[@16, @{
-        @"contentTransformMatricesString": @"[0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]; [0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]",
+        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]",
       }],
       @[@17, @{
-        @"contentTransformMatricesString": @"[0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]; [0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]",
+        @"contentTransformMatricesString": @"[0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.537735849]; [0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.537735849]",
       }],
     ];
     [self applyLayout:layoutDescs_elemThumb toView:self.elemThumb format:format associatedData:layoutAssocData_elemThumb flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];

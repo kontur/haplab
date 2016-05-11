@@ -36,7 +36,7 @@
 #import <UIKit/UIKit.h>
 
 #import "HAPStartViewController.h"
-#import "HAPV1handBackgroundonethumb2View.h"
+#import "HAPV1handBackgroundonethumb05alphaView.h"
 #import "HAPV1handRectangle2CopyView.h"
 #import "HAPV1handButtonnextView.h"
 

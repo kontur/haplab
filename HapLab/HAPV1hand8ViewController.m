@@ -43,7 +43,7 @@
 
 @interface HAPV1hand8ViewController ()
 - (void)backgroundClicked:(id)sender;
-@property (nonatomic) HAPV1hand8Backgroundonethumb2View *elemBackgroundonethumb2;
+@property (nonatomic) HAPV1hand8Backgroundonethumb05alphaView *elemBackgroundonethumb05alpha;
 @property (nonatomic) HAPV1hand8RectangleView *elemRectangle;
 @property (nonatomic) UILabel *elemTextBlock;
 @property (nonatomic) UILabel *elemTextBlock2;
@@ -95,12 +95,12 @@
 
     rootView.clipsToBounds = YES;
 
-    HAPV1hand8Backgroundonethumb2View *elemBackgroundonethumb2 = [[HAPV1hand8Backgroundonethumb2View alloc] initWithFrame:CGRectMake(0.0, 0.0, 375.0, 667.0)];
-    self.elemBackgroundonethumb2 = elemBackgroundonethumb2;
+    HAPV1hand8Backgroundonethumb05alphaView *elemBackgroundonethumb05alpha = [[HAPV1hand8Backgroundonethumb05alphaView alloc] initWithFrame:CGRectMake(0.0, 0.0, 375.0, 667.0)];
+    self.elemBackgroundonethumb05alpha = elemBackgroundonethumb05alpha;
 
-    elemBackgroundonethumb2.userInteractionEnabled = NO;
+    elemBackgroundonethumb05alpha.userInteractionEnabled = NO;
 
-    [rootView addSubview:self.elemBackgroundonethumb2];
+    [rootView addSubview:self.elemBackgroundonethumb05alpha];
     
     HAPV1hand8RectangleView *elemRectangle = [[HAPV1hand8RectangleView alloc] initWithFrame:CGRectMake(18.8, 177.9, 338.0, 227.7)];
     self.elemRectangle = elemRectangle;
@@ -504,7 +504,7 @@
         format = (screenDim <= 480.0) ? 3 : (screenDim <= 568.0 ? 5 : (screenDim <= 667.0 ? 17 : 19));
         if (isPortrait) format++;
     }
-    NSArray *layoutDescs_elemBackgroundonethumb2 = @[
+    NSArray *layoutDescs_elemBackgroundonethumb05alpha = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 480.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
     @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 568.0, 320.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 375.0, 667.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
@@ -516,10 +516,10 @@
     @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 1024.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
     @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 667.0, 375.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_landscape
     ];
-    NSDictionary *override_elemBackgroundonethumb2 = [_overrideElementLayoutDescriptors objectForKey:@"background-one-thumb 2"];
-    if ((val = [override_elemBackgroundonethumb2 objectForKey:@"layoutDescs"]))
-       layoutDescs_elemBackgroundonethumb2 = val;
-    NSArray *layoutAssocData_elemBackgroundonethumb2 = @[
+    NSDictionary *override_elemBackgroundonethumb05alpha = [_overrideElementLayoutDescriptors objectForKey:@"background-one-thumb-0.5alpha"];
+    if ((val = [override_elemBackgroundonethumb05alpha objectForKey:@"layoutDescs"]))
+       layoutDescs_elemBackgroundonethumb05alpha = val;
+    NSArray *layoutAssocData_elemBackgroundonethumb05alpha = @[
       @[@4, @{
         @"contentTransformMatricesString": @"[0.853333333, 0.0, 0.0, 0.853333333, 0.0, -44.586666667]; [0.853333333, 0.0, 0.0, 0.853333333, 0.0, -44.586666667]",
       }],
@@ -551,7 +551,7 @@
         @"contentTransformMatricesString": @"[1.778666667, 0.0, 0.0, 1.778666667, 0.0, -405.685333333]; [1.778666667, 0.0, 0.0, 1.778666667, 0.0, -405.685333333]",
       }],
     ];
-    [self applyLayout:layoutDescs_elemBackgroundonethumb2 toView:self.elemBackgroundonethumb2 format:format associatedData:layoutAssocData_elemBackgroundonethumb2 flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
+    [self applyLayout:layoutDescs_elemBackgroundonethumb05alpha toView:self.elemBackgroundonethumb05alpha format:format associatedData:layoutAssocData_elemBackgroundonethumb05alpha flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemRectangle = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(16.0, 141.0+yOff, 288.5, 230.74)], [NSValue valueWithCGPoint:CGPointMake(0.0, 141.0)], @{ @"offsetToHorizontalKeylineT": @(-44.87) } ],  // iphoneclassic_portrait

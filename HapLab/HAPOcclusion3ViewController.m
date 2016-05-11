@@ -45,7 +45,7 @@
 @property (nonatomic) HAPOcclusion3RectangleView *elemRectangle;
 @property (nonatomic) UILabel *elemTextBlock;
 @property (nonatomic) UILabel *elemTextBlock2;
-@property (nonatomic) HAPOcclusion3ThumbView *elemThumb;
+@property (nonatomic) HAPOcclusion3ThumbCopyView *elemThumbCopy;
 @property (nonatomic) HAPOcclusion3HamburgerView *elemHamburger;
 @property (nonatomic) UIButton *elemHotspotCopy;
 @property (nonatomic) CGSize visibleKeyboardSize;
@@ -165,12 +165,12 @@
 
     [rootView addSubview:self.elemTextBlock2];
     
-    HAPOcclusion3ThumbView *elemThumb = [[HAPOcclusion3ThumbView alloc] initWithFrame:CGRectMake(270.5, 496.0, 191.5, 231.0)];
-    self.elemThumb = elemThumb;
+    HAPOcclusion3ThumbCopyView *elemThumbCopy = [[HAPOcclusion3ThumbCopyView alloc] initWithFrame:CGRectMake(289.0, 436.0, 195.0, 231.0)];
+    self.elemThumbCopy = elemThumbCopy;
 
-    elemThumb.userInteractionEnabled = NO;
+    elemThumbCopy.userInteractionEnabled = NO;
 
-    [rootView addSubview:self.elemThumb];
+    [rootView addSubview:self.elemThumbCopy];
     
     HAPOcclusion3HamburgerView *elemHamburger = [[HAPOcclusion3HamburgerView alloc] initWithFrame:CGRectMake(295.5, 22.5, 57.0, 57.0)];
     self.elemHamburger = elemHamburger;
@@ -257,7 +257,7 @@
 {
     [self repositionElements];
     
-    self.elemThumb.transform = CGAffineTransformIdentity;
+    self.elemThumbCopy.transform = CGAffineTransformIdentity;
     
     
     UINavigationController *nav = [self parentNavigationController];
@@ -280,9 +280,9 @@
         animations:^{
             {
                 CGPoint offset = CGPointZero;
-                CGRect frame = self.elemThumb.layer.frame;
+                CGRect frame = self.elemThumbCopy.layer.frame;
                 offset.y = -frame.origin.y - frame.size.height - 1;
-                self.elemThumb.transform = CGAffineTransformMakeTranslation(offset.x, offset.y);
+                self.elemThumbCopy.transform = CGAffineTransformMakeTranslation(offset.x, offset.y);
             }
         }
         completion:^(BOOL finished) {
@@ -594,54 +594,54 @@
        layoutDescs_elemTextBlock2 = val;
     [self applyLayout:layoutDescs_elemTextBlock2 toView:self.elemTextBlock2 format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
-    NSArray *layoutDescs_elemThumb = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(274.0, 503.0+yOff, 194.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 503.0)]],  // iphoneclassic_portrait
-    @[@5, [NSValue valueWithCGRect:CGRectMake(270.5, 496.5+yOff, 191.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.5)]],  // iphone5_landscape
-    @[@18, [NSValue valueWithCGRect:CGRectMake(270.5, 496.0+yOff, 191.5, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.0)]],  // iphone6_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(270.5, 496.5+yOff, 191.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.5)]],  // iphone5_portrait
-    @[@15, [NSValue valueWithCGRect:CGRectMake(269.0, 494.0+yOff, 191.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 494.0)]],  // ipad_landscape
-    @[@19, [NSValue valueWithCGRect:CGRectMake(256.67, 470.67+yOff, 181.67, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 470.67)]],  // iphone6plus_landscape
-    @[@20, [NSValue valueWithCGRect:CGRectMake(256.67, 470.67+yOff, 181.67, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 470.67)]],  // iphone6plus_portrait
-    @[@3, [NSValue valueWithCGRect:CGRectMake(274.0, 503.0+yOff, 194.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 503.0)]],  // iphoneclassic_landscape
-    @[@16, [NSValue valueWithCGRect:CGRectMake(269.0, 494.0+yOff, 191.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 494.0)]],  // ipad_portrait
-    @[@17, [NSValue valueWithCGRect:CGRectMake(270.5, 496.5+yOff, 191.5, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 496.5)]],  // iphone6_landscape
+    NSArray *layoutDescs_elemThumbCopy = @[
+    @[@4, [NSValue valueWithCGRect:CGRectMake(215.0, NAN, 198.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 246.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(537.0, NAN, 195.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 88.5)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_landscape
+    @[@18, [NSValue valueWithCGRect:CGRectMake(289.0, NAN, 195.0, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 436.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(217.5, NAN, 195.5, 231.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 336.5)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(1127.0, NAN, 194.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 538.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(764.33, NAN, 185.0, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 194.67)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(349.0, NAN, 185.0, 219.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 516.67)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(421.0, NAN, 198.0, 234.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 86.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(797.0, NAN, 194.0, 230.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 794.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(665.0, NAN, 195.5, 231.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 144.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_landscape
     ];
-    NSDictionary *override_elemThumb = [_overrideElementLayoutDescriptors objectForKey:@"thumb"];
-    if ((val = [override_elemThumb objectForKey:@"layoutDescs"]))
-       layoutDescs_elemThumb = val;
-    NSArray *layoutAssocData_elemThumb = @[
+    NSDictionary *override_elemThumbCopy = [_overrideElementLayoutDescriptors objectForKey:@"thumb copy"];
+    if ((val = [override_elemThumbCopy objectForKey:@"layoutDescs"]))
+       layoutDescs_elemThumbCopy = val;
+    NSArray *layoutAssocData_elemThumbCopy = @[
       @[@4, @{
-        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]",
+        @"contentTransformMatricesString": @"[0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]; [0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]",
       }],
       @[@5, @{
-        @"contentTransformMatricesString": @"[0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]; [0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]",
+        @"contentTransformMatricesString": @"[0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]; [0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]",
       }],
       @[@18, @{
-        @"contentTransformMatricesString": @"[0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]; [0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]",
+        @"contentTransformMatricesString": @"[0.613207547, 0.0, 0.0, 0.613207547, 0.0, -2.235849057]; [0.613207547, 0.0, 0.0, 0.613207547, 0.0, -2.235849057]",
       }],
       @[@6, @{
-        @"contentTransformMatricesString": @"[0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]; [0.602864583, 0.0, 0.0, 0.602864583, -0.105468750, 0.0]",
+        @"contentTransformMatricesString": @"[0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]; [0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.287735849]",
       }],
       @[@15, @{
-        @"contentTransformMatricesString": @"[0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]; [0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]",
+        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]",
       }],
       @[@19, @{
-        @"contentTransformMatricesString": @"[0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]; [0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]",
+        @"contentTransformMatricesString": @"[0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]; [0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]",
       }],
       @[@20, @{
-        @"contentTransformMatricesString": @"[0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]; [0.571278826, 0.0, 0.0, 0.571278826, 0.0, -0.018867925]",
+        @"contentTransformMatricesString": @"[0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]; [0.581761006, 0.0, 0.0, 0.581761006, 0.0, -2.031446541]",
       }],
       @[@3, @{
-        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -0.132075472]",
+        @"contentTransformMatricesString": @"[0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]; [0.622641509, 0.0, 0.0, 0.622641509, 0.0, -2.547169811]",
       }],
       @[@16, @{
-        @"contentTransformMatricesString": @"[0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]; [0.600628931, 0.0, 0.0, 0.600628931, 0.0, -0.320754717]",
+        @"contentTransformMatricesString": @"[0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]; [0.610062893, 0.0, 0.0, 0.610062893, 0.0, -2.132075472]",
       }],
       @[@17, @{
-        @"contentTransformMatricesString": @"[0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]; [0.602201258, 0.0, 0.0, 0.602201258, 0.0, -0.122641509]",
+        @"contentTransformMatricesString": @"[0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.537735849]; [0.614779874, 0.0, 0.0, 0.614779874, 0.0, -2.537735849]",
       }],
     ];
-    [self applyLayout:layoutDescs_elemThumb toView:self.elemThumb format:format associatedData:layoutAssocData_elemThumb flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
+    [self applyLayout:layoutDescs_elemThumbCopy toView:self.elemThumbCopy format:format associatedData:layoutAssocData_elemThumbCopy flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemHamburger = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(239.5, 23.0+yOff, 57.5, 57.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 23.0)], @{ @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait

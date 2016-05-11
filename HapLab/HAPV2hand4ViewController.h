@@ -37,8 +37,7 @@
 
 #import "HAPStartViewController.h"
 #import "HAPV2hand5ViewController.h"
-#import "HAPV2hand4BackgroundShapeView.h"
-#import "HAPV2hand4BackgroundtwohandlandscapeView.h"
+#import "HAPV2hand4Backgroundtwohandlandscape05alphaView.h"
 #import "HAPV2hand4TextBackgroundView.h"
 #import "HAPV2hand4ButtonnextView.h"
 #import "HAPV2hand4Buttonclose2View.h"

@@ -38,7 +38,7 @@
 #import "HAPOcclusion4ViewController.h"
 #import "HAPOcclusion3BG_backgroundView.h"
 #import "HAPOcclusion3RectangleView.h"
-#import "HAPOcclusion3ThumbView.h"
+#import "HAPOcclusion3ThumbCopyView.h"
 #import "HAPOcclusion3HamburgerView.h"
 
 @interface HAPOcclusion3ViewController : UIViewController
