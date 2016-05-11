@@ -205,7 +205,6 @@
     }
     [elemHotspot addTarget:self action:@selector(hotspotTapAction:) forControlEvents:UIControlEventTouchUpInside];
 
-    self.elemHotspot.hidden = YES;
     [rootView addSubview:self.elemHotspot];
     
     

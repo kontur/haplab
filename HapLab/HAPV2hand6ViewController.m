@@ -207,7 +207,7 @@
             NSFontAttributeName: ([UIFont fontWithName:@"BebasNeue" size:20.7] ? [UIFont fontWithName:@"BebasNeue" size:20.7] : [UIFont systemFontOfSize:20.7]),
             NSParagraphStyleAttributeName: pstyle_elemTextBlock4
         };
-    elemTextBlock4.attributedText = [[NSAttributedString alloc] initWithString:@"CONTINUE" attributes:elemTextBlock4TextAttrs];
+    elemTextBlock4.attributedText = [[NSAttributedString alloc] initWithString:@"Back to menu" attributes:elemTextBlock4TextAttrs];
 
     [rootView addSubview:self.elemTextBlock4];
     
@@ -234,6 +234,7 @@
     }
     [elemHotspotTry addTarget:self action:@selector(hotspotTryTapAction:) forControlEvents:UIControlEventTouchUpInside];
 
+    self.elemHotspotTry.hidden = YES;
     [rootView addSubview:self.elemHotspotTry];
     
     UILabel *elemTextBlockCopy2 = [[UILabel alloc] initWithFrame:CGRectMake(142.8, 238.9, 90.0, 146.5)];

@@ -1,4 +1,4 @@
-atu#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 #import "HAPAppDelegate.h"
 
 int main(int argc, char * argv[])
