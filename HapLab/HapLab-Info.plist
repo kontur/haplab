@@ -42,14 +42,17 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 
 	</array>
 	<key>UIAppFonts</key>
 	<array>
  		<string>BebasNeue Bold.otf</string>
  		<string>Amble-Regular.ttf</string>
- 		<string>Amble-Bold.ttf</string>
+ 		<string>BebasNeue.otf</string>
  		<string>BebasNeue Regular.otf</string>
+ 		<string>Bookerly-Regular.ttf</string>
 	</array>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>Shows user location on map.</string>

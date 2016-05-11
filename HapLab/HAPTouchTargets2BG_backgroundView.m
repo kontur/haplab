@@ -14,7 +14,7 @@
     self.contentTransform = CGAffineTransformIdentity;
     
     // We access this image by name as needed because the OS can better decide whether to cache it.
-    self.imageName = @"HAPTouchTargets2BG_background.png";
+    self.imageName = @"HAPTouchTargets2BG_background.jpg";
     self.clipsToBounds = YES;
     
     // This value represents scaling applied to the image by Neonto Studio on export.

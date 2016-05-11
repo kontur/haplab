@@ -644,7 +644,7 @@
     CGContextSaveGState(ctx);
         CGContextScaleCTM(ctx, 0.5, 0.5);
         CGContextTranslateCTM(ctx, rect.size.width, rect.size.height);
-        CGContextScaleCTM(ctx, 0.416938685, 0.416938685);
+        CGContextScaleCTM(ctx, 0.418777039, 0.418777039);
         CGContextTranslateCTM(ctx, -226.0, -226.5);
         
         CGContextSetAlpha(ctx, 1.0);

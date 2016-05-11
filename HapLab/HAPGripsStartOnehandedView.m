@@ -18,7 +18,7 @@
     self.clipsToBounds = YES;
     
     // This value represents scaling applied to the image by Neonto Studio on export.
-    self.contentOriginalScale = 0.487903226;
+    self.contentOriginalScale = 1.0;
     
 
     return self;

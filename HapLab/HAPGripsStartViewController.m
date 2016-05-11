@@ -1,14 +1,33 @@
 /*
-  This code was generated in Neonto Studio Personal Edition:
+  This code was generated in Neonto Proto Studio:
   
     http://www.neonto.com
   
-  You may use this code ONLY for non-commercial purposes and evaluation.
-  Reusing any part of this code for commercial purposes is not permitted.
+  You may freely use this code for:
   
-  Would you like to remove this restriction?
-  With Neonto's flexible licensing options, you can have your own copyright
-  in all this code.
+    ✔︎ Prototyping
+    ✔︎ Distribution directly to devices
+    ✔︎ App store distribution for free apps
+    ✔︎ App store distribution using a personal account
+  
+  The following use cases are restricted to Neonto Production & Team Edition only:
+  
+    - App store distribution using a company account
+    - App store distribution involving upfront purchase or in-app purchases
+    - Internal enterprise distribution
+  
+  This license restriction also applies to any reuse of portions of this code.
+  
+  
+  Would you like to have unlimited use of generated code?
+  Upgrade to Neonto Studio Production & Team Edition. It has no restrictions --
+  everything you export will be yours to use.
+  
+  In fact, the Production & Team Edition lets you place your own copyright
+  in ALL the code. You simply own everything, so there's no question of licensing!
+  
+  It also has advanced export options like customized bundle IDs and App Store
+  publishing settings.
   
   Find out more -- click 'Upgrade to Pro' in Neonto Studio's toolbar.
   
@@ -18,9 +37,9 @@
 #import "HAPAppDelegate.h"
 #import "HAPOcclusionIntroViewController.h"
 #import "HAPV1handIntroViewController.h"
+#import "HAPV2handIntroViewController.h"
 
 
-#import "HAPAlertView.h"
 
 
 
@@ -148,54 +167,54 @@
 
     [rootView addSubview:self.elemButtonnextCopy2];
     
-    UILabel *elemTextBlock2 = [[UILabel alloc] initWithFrame:CGRectMake(202.2, 211.8, 158.3, 41.0)];
+    UILabel *elemTextBlock2 = [[UILabel alloc] initWithFrame:CGRectMake(202.2, 211.8, 158.3, 52.0)];
     self.elemTextBlock2 = elemTextBlock2;
 
     elemTextBlock2.lineBreakMode = NSLineBreakByWordWrapping;
     elemTextBlock2.numberOfLines = 0;
         NSMutableParagraphStyle *pstyle_elemTextBlock2 = [[NSMutableParagraphStyle alloc] init];
-        pstyle_elemTextBlock2.minimumLineHeight = 18.810;
-        pstyle_elemTextBlock2.maximumLineHeight = 18.810;
+        pstyle_elemTextBlock2.minimumLineHeight = 24.255;
+        pstyle_elemTextBlock2.maximumLineHeight = 24.255;
         pstyle_elemTextBlock2.alignment = NSTextAlignmentCenter;
         NSDictionary *elemTextBlock2TextAttrs = @{
             NSForegroundColorAttributeName: [UIColor colorWithRed:0.278902247 green:0.521800944 blue:0.688767695 alpha:1.0],
-            NSFontAttributeName: ([UIFont fontWithName:@"Amble-Bold" size:16.1] ? [UIFont fontWithName:@"Amble-Bold" size:16.1] : [UIFont systemFontOfSize:16.1]),
+            NSFontAttributeName: ([UIFont fontWithName:@"BebasNeue" size:20.7] ? [UIFont fontWithName:@"BebasNeue" size:20.7] : [UIFont systemFontOfSize:20.7]),
             NSParagraphStyleAttributeName: pstyle_elemTextBlock2
         };
     elemTextBlock2.attributedText = [[NSAttributedString alloc] initWithString:@"ONE-HANDED \nTHUMB INPUT" attributes:elemTextBlock2TextAttrs];
 
     [rootView addSubview:self.elemTextBlock2];
     
-    UILabel *elemTextBlockCopy = [[UILabel alloc] initWithFrame:CGRectMake(202.2, 411.9, 158.3, 41.0)];
+    UILabel *elemTextBlockCopy = [[UILabel alloc] initWithFrame:CGRectMake(202.2, 411.9, 158.3, 52.0)];
     self.elemTextBlockCopy = elemTextBlockCopy;
 
     elemTextBlockCopy.lineBreakMode = NSLineBreakByWordWrapping;
     elemTextBlockCopy.numberOfLines = 0;
         NSMutableParagraphStyle *pstyle_elemTextBlockCopy = [[NSMutableParagraphStyle alloc] init];
-        pstyle_elemTextBlockCopy.minimumLineHeight = 18.810;
-        pstyle_elemTextBlockCopy.maximumLineHeight = 18.810;
+        pstyle_elemTextBlockCopy.minimumLineHeight = 24.255;
+        pstyle_elemTextBlockCopy.maximumLineHeight = 24.255;
         pstyle_elemTextBlockCopy.alignment = NSTextAlignmentCenter;
         NSDictionary *elemTextBlockCopyTextAttrs = @{
             NSForegroundColorAttributeName: [UIColor colorWithRed:0.278902247 green:0.521800944 blue:0.688767695 alpha:1.0],
-            NSFontAttributeName: ([UIFont fontWithName:@"Amble-Bold" size:16.1] ? [UIFont fontWithName:@"Amble-Bold" size:16.1] : [UIFont systemFontOfSize:16.1]),
+            NSFontAttributeName: ([UIFont fontWithName:@"BebasNeue" size:20.7] ? [UIFont fontWithName:@"BebasNeue" size:20.7] : [UIFont systemFontOfSize:20.7]),
             NSParagraphStyleAttributeName: pstyle_elemTextBlockCopy
         };
     elemTextBlockCopy.attributedText = [[NSAttributedString alloc] initWithString:@"TWO-HANDED \nINPUT" attributes:elemTextBlockCopyTextAttrs];
 
     [rootView addSubview:self.elemTextBlockCopy];
     
-    UILabel *elemTextBlockCopy2 = [[UILabel alloc] initWithFrame:CGRectMake(202.2, 578.6, 158.3, 41.0)];
+    UILabel *elemTextBlockCopy2 = [[UILabel alloc] initWithFrame:CGRectMake(202.2, 578.6, 158.3, 52.0)];
     self.elemTextBlockCopy2 = elemTextBlockCopy2;
 
     elemTextBlockCopy2.lineBreakMode = NSLineBreakByWordWrapping;
     elemTextBlockCopy2.numberOfLines = 0;
         NSMutableParagraphStyle *pstyle_elemTextBlockCopy2 = [[NSMutableParagraphStyle alloc] init];
-        pstyle_elemTextBlockCopy2.minimumLineHeight = 18.810;
-        pstyle_elemTextBlockCopy2.maximumLineHeight = 18.810;
+        pstyle_elemTextBlockCopy2.minimumLineHeight = 24.255;
+        pstyle_elemTextBlockCopy2.maximumLineHeight = 24.255;
         pstyle_elemTextBlockCopy2.alignment = NSTextAlignmentCenter;
         NSDictionary *elemTextBlockCopy2TextAttrs = @{
             NSForegroundColorAttributeName: [UIColor colorWithRed:0.278902247 green:0.521800944 blue:0.688767695 alpha:1.0],
-            NSFontAttributeName: ([UIFont fontWithName:@"Amble-Bold" size:16.1] ? [UIFont fontWithName:@"Amble-Bold" size:16.1] : [UIFont systemFontOfSize:16.1]),
+            NSFontAttributeName: ([UIFont fontWithName:@"BebasNeue" size:20.7] ? [UIFont fontWithName:@"BebasNeue" size:20.7] : [UIFont systemFontOfSize:20.7]),
             NSParagraphStyleAttributeName: pstyle_elemTextBlockCopy2
         };
     elemTextBlockCopy2.attributedText = [[NSAttributedString alloc] initWithString:@"LEARN ABOUT\nSCREEN OCCLUSION" attributes:elemTextBlockCopy2TextAttrs];
@@ -541,14 +560,40 @@
 
 - (void)hotspotCopyTapAction:(id)sender
 {
-    // 'Show message popup' action
-    [[[HAPAlertView alloc] initWithMessage:@"TODO" showCancel:NO completion:^(NSString *buttonId) {
-        if ([buttonId isEqualToString:@"ok"]) {
-            
-        } else {
-            
+    // Determine whether we're within a hierarchical container view controller
+    // (UINavigationController or something that works like it),
+    // and if one of the higher-level view controllers is the screen where we're going.
+    // If not in a hierarchical parent, just do modal-style present.
+    Class cls = [HAPV2handIntroViewController class];
+    HAPV2handIntroViewController *viewCtrl = nil;
+    UINavigationController *nav = [self parentNavigationController];
+    if (nav) {
+        for (viewCtrl in nav.viewControllers.reverseObjectEnumerator) {
+            if ([viewCtrl isKindOfClass:cls]) {
+                break;
+            }
         }
-    }] show];
+    }
+    
+    if (viewCtrl) {
+        [viewCtrl removeFromParentViewController];
+        [nav pushViewController:viewCtrl animated:YES];
+        
+    } else {
+        const BOOL addToNav = YES;
+        viewCtrl = [[cls alloc] init];
+        viewCtrl.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+        
+    
+        if (nav && addToNav) {
+            viewCtrl.navigationItem.hidesBackButton = YES;
+            [nav pushViewController:viewCtrl animated:YES];
+        } else {
+            [self presentViewController:viewCtrl animated:YES completion:NULL];
+        }
+    }
+    
+    
 
 }
 
@@ -634,10 +679,15 @@
     }
     NSArray *layoutDescs_elemBG_background = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 480.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 568.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 736.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 1024.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 568.0, 320.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 375.0, 667.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 568.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 1024.0, 768.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 736.0, 414.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 736.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 480.0, 320.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 1024.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 667.0, 375.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)], @{ @"bottomEdgeOffset": @(0.0+yOff) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemBG_background = [_overrideElementLayoutDescriptors objectForKey:@"BG_background"];
     if ((val = [override_elemBG_background objectForKey:@"layoutDescs"]))
@@ -646,27 +696,47 @@
       @[@4, @{
         @"contentTransformMatricesString": @"[0.853333333, 0.0, 0.0, 0.853333333, 0.0, -44.586666667]; [0.853333333, 0.0, 0.0, 0.853333333, 0.0, -44.586666667]",
       }],
+      @[@5, @{
+        @"contentTransformMatricesString": @"[1.514666667, 0.0, 0.0, 1.514666667, 0.0, -345.141333333]; [1.514666667, 0.0, 0.0, 1.514666667, 0.0, -345.141333333]",
+      }],
+      @[@18, @{
+        @"contentTransformMatricesString": @"[1.0, 0.0, 0.0, 1.0, 0.0, 0.0]; [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]",
+      }],
       @[@6, @{
         @"contentTransformMatricesString": @"[0.853333333, 0.0, 0.0, 0.853333333, 0.0, -0.586666667]; [0.853333333, 0.0, 0.0, 0.853333333, 0.0, -0.586666667]",
+      }],
+      @[@15, @{
+        @"contentTransformMatricesString": @"[2.730666667, 0.0, 0.0, 2.730666667, 0.0, -526.677333333]; [2.730666667, 0.0, 0.0, 2.730666667, 0.0, -526.677333333]",
+      }],
+      @[@19, @{
+        @"contentTransformMatricesString": @"[1.962666667, 0.0, 0.0, 1.962666667, 0.0, -447.549333333]; [1.962666667, 0.0, 0.0, 1.962666667, 0.0, -447.549333333]",
       }],
       @[@20, @{
         @"contentTransformMatricesString": @"[1.104, 0.0, 0.0, 1.104, 0.0, -0.184]; [1.104, 0.0, 0.0, 1.104, 0.0, -0.184]",
       }],
+      @[@3, @{
+        @"contentTransformMatricesString": @"[1.280, 0.0, 0.0, 1.280, 0.0, -266.880]; [1.280, 0.0, 0.0, 1.280, 0.0, -266.880]",
+      }],
       @[@16, @{
         @"contentTransformMatricesString": @"[2.048, 0.0, 0.0, 2.048, 0.0, -171.008]; [2.048, 0.0, 0.0, 2.048, 0.0, -171.008]",
       }],
-      @[@18, @{
-        @"contentTransformMatricesString": @"[1.0, 0.0, 0.0, 1.0, 0.0, 0.0]; [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]",
+      @[@17, @{
+        @"contentTransformMatricesString": @"[1.778666667, 0.0, 0.0, 1.778666667, 0.0, -405.685333333]; [1.778666667, 0.0, 0.0, 1.778666667, 0.0, -405.685333333]",
       }],
     ];
     [self applyLayout:layoutDescs_elemBG_background toView:self.elemBG_background format:format associatedData:layoutAssocData_elemBG_background flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemRectangle = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 68.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 67.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 64.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 67.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 568.0, 67.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 375.0, 67.84)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 67.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 1024.0, 67.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 736.0, 64.37)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 64.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 480.0, 68.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 67.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 667.0, 67.88)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6_landscape
     ];
     NSDictionary *override_elemRectangle = [_overrideElementLayoutDescriptors objectForKey:@"rectangle"];
     if ((val = [override_elemRectangle objectForKey:@"layoutDescs"]))
@@ -675,10 +745,15 @@
     
     NSArray *layoutDescs_elemTextBlock = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 320.0, 53.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 320.0, 51.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 10.67+yOff, 414.0, 48.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 10.67)], @{ @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 11.0+yOff, 768.0, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.0)], @{ @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 568.0, 51.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 375.0, 51.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 320.0, 51.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 11.0+yOff, 1024.0, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.0)], @{ @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 10.67+yOff, 736.0, 48.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 10.67)], @{ @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 10.67+yOff, 414.0, 48.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 10.67)], @{ @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 480.0, 53.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 11.0+yOff, 768.0, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.0)], @{ @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 11.5+yOff, 667.0, 51.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 11.5)], @{ @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemTextBlock = [_overrideElementLayoutDescriptors objectForKey:@"text block"];
     if ((val = [override_elemTextBlock objectForKey:@"layoutDescs"]))
@@ -686,11 +761,16 @@
     [self applyLayout:layoutDescs_elemTextBlock toView:self.elemTextBlock format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemButtonnext = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(205.5, 349.5+yOff, 68.75, 70.77)], [NSValue valueWithCGPoint:CGPointMake(0.0, 349.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(206.0, 420.4+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 420.4)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(278.17, 556.47+yOff, 64.38, 66.26)], [NSValue valueWithCGPoint:CGPointMake(0.0, 556.47)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(542.0, 785.2+yOff, 67.50, 69.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 785.2)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(205.5, 349.5+yOff, 68.75, 70.76)], [NSValue valueWithCGPoint:CGPointMake(0.0, 349.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(392.0, 222.0+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 222.0)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(247.25, 499.6+yOff, 67.84, 70.34)], [NSValue valueWithCGPoint:CGPointMake(0.0, 499.6)], @{ @"offsetToHorizontalKeylineT": @(33.92) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(206.0, 420.4+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 420.4)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(734.0, 580.4+yOff, 67.50, 69.95)], [NSValue valueWithCGPoint:CGPointMake(0.0, 580.4)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(519.67, 298.87+yOff, 64.37, 66.27)], [NSValue valueWithCGPoint:CGPointMake(0.0, 298.87)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(278.17, 556.47+yOff, 64.38, 66.26)], [NSValue valueWithCGPoint:CGPointMake(0.0, 556.47)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(325.5, 221.5+yOff, 68.75, 70.77)], [NSValue valueWithCGPoint:CGPointMake(0.0, 221.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(542.0, 785.2+yOff, 67.50, 69.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 785.2)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(466.25, 266.0+yOff, 67.88, 69.87)], [NSValue valueWithCGPoint:CGPointMake(0.0, 266.0)], @{ @"offsetToHorizontalKeylineT": @(33.94) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemButtonnext = [_overrideElementLayoutDescriptors objectForKey:@"button-next"];
     if ((val = [override_elemButtonnext objectForKey:@"layoutDescs"]))
@@ -698,11 +778,16 @@
     [self applyLayout:layoutDescs_elemButtonnext toView:self.elemButtonnext format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemButtonnextCopy = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(205.5, 229.5+yOff, 68.75, 71.26)], [NSValue valueWithCGPoint:CGPointMake(0.0, 229.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(206.0, 278.4+yOff, 67.92, 70.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 278.4)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(278.17, 372.47+yOff, 64.38, 66.26)], [NSValue valueWithCGPoint:CGPointMake(0.0, 372.47)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(542.0, 529.2+yOff, 67.50, 69.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 529.2)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(205.5, 229.5+yOff, 68.75, 71.28)], [NSValue valueWithCGPoint:CGPointMake(0.0, 229.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(392.0, 142.0+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 142.0)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(247.25, 332.85+yOff, 67.84, 70.83)], [NSValue valueWithCGPoint:CGPointMake(0.0, 332.85)], @{ @"offsetToHorizontalKeylineT": @(33.92) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(206.0, 278.4+yOff, 67.92, 70.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 278.4)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(734.0, 388.4+yOff, 67.50, 69.94)], [NSValue valueWithCGPoint:CGPointMake(0.0, 388.4)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(519.67, 195.37+yOff, 64.37, 66.74)], [NSValue valueWithCGPoint:CGPointMake(0.0, 195.37)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(278.17, 372.47+yOff, 64.38, 66.26)], [NSValue valueWithCGPoint:CGPointMake(0.0, 372.47)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(325.5, 141.5+yOff, 68.75, 70.77)], [NSValue valueWithCGPoint:CGPointMake(0.0, 141.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(542.0, 529.2+yOff, 67.50, 69.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 529.2)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(466.25, 172.25+yOff, 67.88, 69.87)], [NSValue valueWithCGPoint:CGPointMake(0.0, 172.25)], @{ @"offsetToHorizontalKeylineT": @(33.94) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemButtonnextCopy = [_overrideElementLayoutDescriptors objectForKey:@"button-next copy"];
     if ((val = [override_elemButtonnextCopy objectForKey:@"layoutDescs"]))
@@ -711,10 +796,15 @@
     
     NSArray *layoutDescs_elemButtonnextCopy2 = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(205.5, 85.5+yOff, 68.75, 70.76)], [NSValue valueWithCGPoint:CGPointMake(0.0, 85.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(206.0, 108.0+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 108.0)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(278.17, 151.67+yOff, 64.38, 66.74)], [NSValue valueWithCGPoint:CGPointMake(0.0, 151.67)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(542.0, 222.0+yOff, 67.50, 69.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 222.0)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(392.0, 46.0+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 46.0)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(247.25, 132.75+yOff, 67.84, 69.84)], [NSValue valueWithCGPoint:CGPointMake(0.0, 132.75)], @{ @"offsetToHorizontalKeylineT": @(33.92) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(206.0, 108.0+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 108.0)], @{ @"offsetToHorizontalKeylineT": @(33.96) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(734.0, 158.0+yOff, 67.50, 69.94)], [NSValue valueWithCGPoint:CGPointMake(0.0, 158.0)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(519.67, 71.17+yOff, 64.37, 66.74)], [NSValue valueWithCGPoint:CGPointMake(0.0, 71.17)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(278.17, 151.67+yOff, 64.38, 66.74)], [NSValue valueWithCGPoint:CGPointMake(0.0, 151.67)], @{ @"offsetToHorizontalKeylineT": @(32.19) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(325.5, 45.5+yOff, 68.75, 70.77)], [NSValue valueWithCGPoint:CGPointMake(0.0, 45.5)], @{ @"offsetToHorizontalKeylineT": @(34.38) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(542.0, 222.0+yOff, 67.50, 69.59)], [NSValue valueWithCGPoint:CGPointMake(0.0, 222.0)], @{ @"offsetToHorizontalKeylineT": @(33.75) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(466.25, 59.75+yOff, 67.88, 69.87)], [NSValue valueWithCGPoint:CGPointMake(0.0, 59.75)], @{ @"offsetToHorizontalKeylineT": @(33.94) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemButtonnextCopy2 = [_overrideElementLayoutDescriptors objectForKey:@"button-next copy 2"];
     if ((val = [override_elemButtonnextCopy2 objectForKey:@"layoutDescs"]))
@@ -722,11 +812,16 @@
     [self applyLayout:layoutDescs_elemButtonnextCopy2 toView:self.elemButtonnextCopy2 format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemTextBlock2 = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(160.0, 166.0+yOff, 160.42, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 166.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(161.0, 187.5+yOff, 158.49, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 187.5)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(235.5, 227.0+yOff, 150.21, 37.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 227.0)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(497.0, 301.0+yOff, 157.51, 42.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 301.0)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
-    @[@18, [NSValue valueWithCGRect:CGRectMake(202.25, 211.75+yOff, 158.30, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 211.75)], @{ @"offsetToHorizontalKeylineT": @(-45.23), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(160.0, 166.0+yOff, 160.42, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 166.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(347.0, 125.5+yOff, 158.47, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 125.5)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
+    @[@18, [NSValue valueWithCGRect:CGRectMake(202.25, 211.75+yOff, 158.30, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 211.75)], @{ @"offsetToHorizontalKeylineT": @(-45.23), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(161.0, 187.5+yOff, 158.49, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 187.5)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(689.0, 237.0+yOff, 157.50, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 237.0)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(477.0, 146.5+yOff, 150.21, 48.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 146.5)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(235.5, 227.0+yOff, 150.21, 48.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 227.0)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(280.0, 126.0+yOff, 160.42, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 126.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(497.0, 301.0+yOff, 157.51, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 301.0)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(421.25, 139.25+yOff, 158.38, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 139.25)], @{ @"offsetToHorizontalKeylineT": @(-45.25), @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemTextBlock2 = [_overrideElementLayoutDescriptors objectForKey:@"text block 2"];
     if ((val = [override_elemTextBlock2 objectForKey:@"layoutDescs"]))
@@ -734,11 +829,16 @@
     [self applyLayout:layoutDescs_elemTextBlock2 toView:self.elemTextBlock2 format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemTextBlockCopy = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(160.0, 310.0+yOff, 160.42, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 310.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(161.0, 357.9+yOff, 158.49, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 357.9)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(235.5, 447.8+yOff, 150.21, 37.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 447.8)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(497.0, 608.2+yOff, 157.51, 42.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 608.2)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
-    @[@18, [NSValue valueWithCGRect:CGRectMake(202.25, 411.85+yOff, 158.30, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 411.85)], @{ @"offsetToHorizontalKeylineT": @(-45.23), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(160.0, 310.0+yOff, 160.42, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 310.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(347.0, 221.5+yOff, 158.47, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 221.5)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
+    @[@18, [NSValue valueWithCGRect:CGRectMake(202.25, 411.85+yOff, 158.30, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 411.85)], @{ @"offsetToHorizontalKeylineT": @(-45.23), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(161.0, 357.9+yOff, 158.49, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 357.9)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(689.0, 467.4+yOff, 157.50, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 467.4)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(477.0, 270.7+yOff, 150.21, 48.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 270.7)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(235.5, 447.8+yOff, 150.21, 48.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 447.8)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(280.0, 222.0+yOff, 160.42, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 222.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(497.0, 608.2+yOff, 157.51, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 608.2)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(421.25, 251.75+yOff, 158.38, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 251.75)], @{ @"offsetToHorizontalKeylineT": @(-45.25), @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemTextBlockCopy = [_overrideElementLayoutDescriptors objectForKey:@"text block copy"];
     if ((val = [override_elemTextBlockCopy objectForKey:@"layoutDescs"]))
@@ -746,11 +846,16 @@
     [self applyLayout:layoutDescs_elemTextBlockCopy toView:self.elemTextBlockCopy format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemTextBlockCopy2 = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(160.0, 430.0+yOff, 160.42, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 430.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(161.0, 499.9+yOff, 158.49, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 499.9)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(235.5, 631.8+yOff, 150.21, 37.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 631.8)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(497.0, 864.2+yOff, 157.51, 42.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 864.2)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
-    @[@18, [NSValue valueWithCGRect:CGRectMake(202.25, 578.6+yOff, 158.30, 41.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 578.6)], @{ @"offsetToHorizontalKeylineT": @(-45.23), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(160.0, 430.0+yOff, 160.42, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 430.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(347.0, 301.5+yOff, 158.47, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 301.5)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
+    @[@18, [NSValue valueWithCGRect:CGRectMake(202.25, 578.6+yOff, 158.30, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 578.6)], @{ @"offsetToHorizontalKeylineT": @(-45.23), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(161.0, 499.9+yOff, 158.49, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 499.9)], @{ @"offsetToHorizontalKeylineT": @(-45.28), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(689.0, 659.4+yOff, 157.50, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 659.4)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(477.0, 374.2+yOff, 150.21, 48.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 374.2)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(235.5, 631.8+yOff, 150.21, 48.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 631.8)], @{ @"offsetToHorizontalKeylineT": @(-42.92), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(280.0, 302.0+yOff, 160.42, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 302.0)], @{ @"offsetToHorizontalKeylineT": @(-45.83), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(497.0, 864.2+yOff, 157.51, 54.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 864.2)], @{ @"offsetToHorizontalKeylineT": @(-45.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(421.25, 345.5+yOff, 158.38, 52.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 345.5)], @{ @"offsetToHorizontalKeylineT": @(-45.25), @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemTextBlockCopy2 = [_overrideElementLayoutDescriptors objectForKey:@"text block copy 2"];
     if ((val = [override_elemTextBlockCopy2 objectForKey:@"layoutDescs"]))
@@ -759,10 +864,15 @@
     
     NSArray *layoutDescs_elemTwohanded = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(16.0, 229.0+yOff, 144.0, 76.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 229.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(16.0, 277.4+yOff, 144.0, 76.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 277.4)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(20.67, 359.13+yOff, 186.33, 98.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 359.13)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(38.0, 479.2+yOff, 346.0, 183.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 479.2)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(28.5, 113.5+yOff, 255.5, 135.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 113.5)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(19.0, 325.35+yOff, 168.5, 89.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 325.35)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(16.0, 277.4+yOff, 144.0, 76.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 277.4)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(51.0, 309.4+yOff, 461.0, 243.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 309.4)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(36.67, 146.7+yOff, 331.33, 174.67)], [NSValue valueWithCGPoint:CGPointMake(0.0, 146.7)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(20.67, 359.13+yOff, 186.33, 98.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 359.13)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(24.0, 123.0+yOff, 216.0, 114.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 123.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(38.0, 479.2+yOff, 346.0, 183.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 479.2)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(33.5, 132.75+yOff, 300.0, 158.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 132.75)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemTwohanded = [_overrideElementLayoutDescriptors objectForKey:@"two-handed"];
     if ((val = [override_elemTwohanded objectForKey:@"layoutDescs"]))
@@ -771,27 +881,47 @@
       @[@4, @{
         @"contentTransformMatricesString": @"[0.110787172, 0.0, 0.0, 0.110787172, -0.122448980, 0.0]; [0.110787172, 0.0, 0.0, 0.110787172, -0.122448980, 0.0]",
       }],
+      @[@5, @{
+        @"contentTransformMatricesString": @"[0.196793003, 0.0, 0.0, 0.196793003, -0.362244898, 0.0]; [0.196793003, 0.0, 0.0, 0.196793003, -0.362244898, 0.0]",
+      }],
+      @[@18, @{
+        @"contentTransformMatricesString": @"[0.129737609, 0.0, 0.0, 0.129737609, -0.209183673, 0.0]; [0.129737609, 0.0, 0.0, 0.129737609, -0.209183673, 0.0]",
+      }],
       @[@6, @{
         @"contentTransformMatricesString": @"[0.110787172, 0.0, 0.0, 0.110787172, -0.122448980, 0.0]; [0.110787172, 0.0, 0.0, 0.110787172, -0.122448980, 0.0]",
+      }],
+      @[@15, @{
+        @"contentTransformMatricesString": @"[0.354227405, 0.0, 0.0, 0.354227405, -0.102040816, 0.0]; [0.354227405, 0.0, 0.0, 0.354227405, -0.102040816, 0.0]",
+      }],
+      @[@19, @{
+        @"contentTransformMatricesString": @"[0.254616132, 0.0, 0.0, 0.254616132, -0.088435374, 0.0]; [0.254616132, 0.0, 0.0, 0.254616132, -0.088435374, 0.0]",
       }],
       @[@20, @{
         @"contentTransformMatricesString": @"[0.143343052, 0.0, 0.0, 0.143343052, -0.149659864, 0.0]; [0.143343052, 0.0, 0.0, 0.143343052, -0.149659864, 0.0]",
       }],
+      @[@3, @{
+        @"contentTransformMatricesString": @"[0.166180758, 0.0, 0.0, 0.166180758, -0.183673469, 0.0]; [0.166180758, 0.0, 0.0, 0.166180758, -0.183673469, 0.0]",
+      }],
       @[@16, @{
         @"contentTransformMatricesString": @"[0.266763848, 0.0, 0.0, 0.266763848, -0.663265306, 0.0]; [0.266763848, 0.0, 0.0, 0.266763848, -0.663265306, 0.0]",
       }],
-      @[@18, @{
-        @"contentTransformMatricesString": @"[0.129737609, 0.0, 0.0, 0.129737609, -0.209183673, 0.0]; [0.129737609, 0.0, 0.0, 0.129737609, -0.209183673, 0.0]",
+      @[@17, @{
+        @"contentTransformMatricesString": @"[0.231049563, 0.0, 0.0, 0.231049563, -0.413265306, 0.0]; [0.231049563, 0.0, 0.0, 0.231049563, -0.413265306, 0.0]",
       }],
     ];
     [self applyLayout:layoutDescs_elemTwohanded toView:self.elemTwohanded format:format associatedData:layoutAssocData_elemTwohanded flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemOnehanded = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(54.5, 85.0+yOff, 70.5, 94.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 85.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(54.5, 107.0+yOff, 70.5, 94.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 107.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(70.33, 138.33+yOff, 91.0, 121.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 138.33)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(131.0, 172.0+yOff, 169.0, 225.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 172.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(96.5, 17.5+yOff, 125.0, 166.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 17.5)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(64.0, 125.25+yOff, 82.0, 109.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 125.25)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(54.5, 107.0+yOff, 70.5, 94.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 107.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(174.0, 79.0+yOff, 225.0, 299.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 79.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(125.0, 22.5+yOff, 162.0, 215.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 22.5)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(70.33, 138.33+yOff, 91.0, 121.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 138.33)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(81.5, 27.0+yOff, 105.5, 140.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 27.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(131.0, 172.0+yOff, 169.0, 225.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 172.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(113.5, 20.25+yOff, 146.5, 195.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.25)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemOnehanded = [_overrideElementLayoutDescriptors objectForKey:@"one-handed"];
     if ((val = [override_elemOnehanded objectForKey:@"layoutDescs"]))
@@ -800,27 +930,47 @@
       @[@4, @{
         @"contentTransformMatricesString": @"[0.126344086, 0.0, 0.0, 0.126344086, -0.126344086, 0.0]; [0.126344086, 0.0, 0.0, 0.126344086, -0.126344086, 0.0]",
       }],
+      @[@5, @{
+        @"contentTransformMatricesString": @"[0.223790323, 0.0, 0.0, 0.223790323, -0.161290323, 0.0]; [0.223790323, 0.0, 0.0, 0.223790323, -0.161290323, 0.0]",
+      }],
+      @[@18, @{
+        @"contentTransformMatricesString": @"[0.146505376, 0.0, 0.0, 0.146505376, -0.021505376, 0.0]; [0.146505376, 0.0, 0.0, 0.146505376, -0.021505376, 0.0]",
+      }],
       @[@6, @{
         @"contentTransformMatricesString": @"[0.126344086, 0.0, 0.0, 0.126344086, -0.126344086, 0.0]; [0.126344086, 0.0, 0.0, 0.126344086, -0.126344086, 0.0]",
+      }],
+      @[@15, @{
+        @"contentTransformMatricesString": @"[0.401881720, 0.0, 0.0, 0.401881720, -0.026881720, 0.0]; [0.401881720, 0.0, 0.0, 0.401881720, -0.026881720, 0.0]",
+      }],
+      @[@19, @{
+        @"contentTransformMatricesString": @"[0.289426523, 0.0, 0.0, 0.289426523, -0.039426523, 0.0]; [0.289426523, 0.0, 0.0, 0.289426523, -0.039426523, 0.0]",
       }],
       @[@20, @{
         @"contentTransformMatricesString": @"[0.162634409, 0.0, 0.0, 0.162634409, -0.037634409, 0.0]; [0.162634409, 0.0, 0.0, 0.162634409, -0.037634409, 0.0]",
       }],
+      @[@3, @{
+        @"contentTransformMatricesString": @"[0.188844086, 0.0, 0.0, 0.188844086, -0.126344086, 0.0]; [0.188844086, 0.0, 0.0, 0.188844086, -0.126344086, 0.0]",
+      }],
       @[@16, @{
         @"contentTransformMatricesString": @"[0.302419355, 0.0, 0.0, 0.302419355, -0.177419355, 0.0]; [0.302419355, 0.0, 0.0, 0.302419355, -0.177419355, 0.0]",
       }],
-      @[@18, @{
-        @"contentTransformMatricesString": @"[0.146505376, 0.0, 0.0, 0.146505376, -0.021505376, 0.0]; [0.146505376, 0.0, 0.0, 0.146505376, -0.021505376, 0.0]",
+      @[@17, @{
+        @"contentTransformMatricesString": @"[0.262096774, 0.0, 0.0, 0.262096774, -0.137096774, 0.0]; [0.262096774, 0.0, 0.0, 0.262096774, -0.137096774, 0.0]",
       }],
     ];
     [self applyLayout:layoutDescs_elemOnehanded toView:self.elemOnehanded format:format associatedData:layoutAssocData_elemOnehanded flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemScreenocclusion = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(54.5, 342.5+yOff, 83.0, 108.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 342.5)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(54.5, 412.9+yOff, 83.0, 108.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 412.9)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(70.33, 535.13+yOff, 107.67, 139.67)], [NSValue valueWithCGPoint:CGPointMake(0.0, 535.13)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(131.0, 719.2+yOff, 199.0, 258.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 719.2)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(96.5, 182.0+yOff, 147.5, 191.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 182.0)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(64.0, 484.6+yOff, 97.0, 126.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 484.6)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(54.5, 412.9+yOff, 83.0, 108.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 412.9)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(174.0, 481.4+yOff, 266.0, 345.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 481.4)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(125.0, 235.53+yOff, 191.33, 248.33)], [NSValue valueWithCGPoint:CGPointMake(0.0, 235.53)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(70.33, 535.13+yOff, 107.67, 139.67)], [NSValue valueWithCGPoint:CGPointMake(0.0, 535.13)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(81.5, 193.5+yOff, 125.0, 162.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 193.5)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(131.0, 719.2+yOff, 199.0, 258.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 719.2)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(113.5, 213.5+yOff, 173.5, 225.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 213.5)], @{ @"offsetToHorizontalKeylineT": @(-0.00), @"fitHeightToContent": @(YES) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemScreenocclusion = [_overrideElementLayoutDescriptors objectForKey:@"screen-occlusion"];
     if ((val = [override_elemScreenocclusion objectForKey:@"layoutDescs"]))
@@ -829,27 +979,47 @@
       @[@4, @{
         @"contentTransformMatricesString": @"[0.132678133, 0.0, 0.0, 0.132678133, -0.160933661, 0.0]; [0.132678133, 0.0, 0.0, 0.132678133, -0.160933661, 0.0]",
       }],
+      @[@5, @{
+        @"contentTransformMatricesString": @"[0.235257985, 0.0, 0.0, 0.235257985, -0.121007371, 0.0]; [0.235257985, 0.0, 0.0, 0.235257985, -0.121007371, 0.0]",
+      }],
+      @[@18, @{
+        @"contentTransformMatricesString": @"[0.154791155, 0.0, 0.0, 0.154791155, -0.104422604, 0.0]; [0.154791155, 0.0, 0.0, 0.154791155, -0.104422604, 0.0]",
+      }],
       @[@6, @{
         @"contentTransformMatricesString": @"[0.132678133, 0.0, 0.0, 0.132678133, -0.160933661, 0.0]; [0.132678133, 0.0, 0.0, 0.132678133, -0.160933661, 0.0]",
+      }],
+      @[@15, @{
+        @"contentTransformMatricesString": @"[0.423832924, 0.0, 0.0, 0.423832924, -0.083538084, 0.0]; [0.423832924, 0.0, 0.0, 0.423832924, -0.083538084, 0.0]",
+      }],
+      @[@19, @{
+        @"contentTransformMatricesString": @"[0.305077805, 0.0, 0.0, 0.305077805, -0.127764128, 0.0]; [0.305077805, 0.0, 0.0, 0.305077805, -0.127764128, 0.0]",
       }],
       @[@20, @{
         @"contentTransformMatricesString": @"[0.171580672, 0.0, 0.0, 0.171580672, -0.042997543, 0.0]; [0.171580672, 0.0, 0.0, 0.171580672, -0.042997543, 0.0]",
       }],
+      @[@3, @{
+        @"contentTransformMatricesString": @"[0.199631450, 0.0, 0.0, 0.199631450, -0.184275184, 0.0]; [0.199631450, 0.0, 0.0, 0.199631450, -0.184275184, 0.0]",
+      }],
       @[@16, @{
         @"contentTransformMatricesString": @"[0.316953317, 0.0, 0.0, 0.316953317, -0.023341523, 0.0]; [0.316953317, 0.0, 0.0, 0.316953317, -0.023341523, 0.0]",
       }],
-      @[@18, @{
-        @"contentTransformMatricesString": @"[0.154791155, 0.0, 0.0, 0.154791155, -0.104422604, 0.0]; [0.154791155, 0.0, 0.0, 0.154791155, -0.104422604, 0.0]",
+      @[@17, @{
+        @"contentTransformMatricesString": @"[0.276412776, 0.0, 0.0, 0.276412776, -0.043611794, 0.0]; [0.276412776, 0.0, 0.0, 0.276412776, -0.043611794, 0.0]",
       }],
     ];
     [self applyLayout:layoutDescs_elemScreenocclusion toView:self.elemScreenocclusion format:format associatedData:layoutAssocData_elemScreenocclusion flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemArrow = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(16.0, 20.5+yOff, 34.38, 28.31)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(16.0, 20.5+yOff, 33.96, 27.65)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(20.67, 19.33+yOff, 32.19, 26.12)], [NSValue valueWithCGPoint:CGPointMake(0.0, 19.33)]],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(38.0, 20.0+yOff, 33.75, 27.49)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.0)]],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(28.5, 20.5+yOff, 33.96, 27.65)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(19.0, 20.5+yOff, 33.92, 27.93)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(16.0, 20.5+yOff, 33.96, 27.65)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(51.0, 20.0+yOff, 33.75, 27.55)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.0)]],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(36.67, 19.33+yOff, 32.19, 26.51)], [NSValue valueWithCGPoint:CGPointMake(0.0, 19.33)]],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(20.67, 19.33+yOff, 32.19, 26.12)], [NSValue valueWithCGPoint:CGPointMake(0.0, 19.33)]],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(24.0, 20.5+yOff, 34.38, 28.31)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(38.0, 20.0+yOff, 33.75, 27.49)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.0)]],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(33.5, 20.5+yOff, 33.94, 27.95)], [NSValue valueWithCGPoint:CGPointMake(0.0, 20.5)]],  // iphone6_landscape
     ];
     NSDictionary *override_elemArrow = [_overrideElementLayoutDescriptors objectForKey:@"arrow"];
     if ((val = [override_elemArrow objectForKey:@"layoutDescs"]))
@@ -858,10 +1028,15 @@
     
     NSArray *layoutDescs_elemHotspot = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 68.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 67.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 64.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 67.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 568.0, 67.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 375.0, 67.84)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 320.0, 67.92)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 1024.0, 67.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 736.0, 64.37)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 414.0, 64.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 480.0, 68.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 768.0, 67.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 0.0+yOff, 667.0, 67.88)], [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)]],  // iphone6_landscape
     ];
     NSDictionary *override_elemHotspot = [_overrideElementLayoutDescriptors objectForKey:@"hotspot"];
     if ((val = [override_elemHotspot objectForKey:@"layoutDescs"]))
@@ -870,10 +1045,15 @@
     
     NSArray *layoutDescs_elemHotspot2 = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 74.0+yOff, 320.0, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 74.0)], @{ @"offsetToHorizontalKeylineT": @(45.83) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 96.5+yOff, 320.0, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 96.5)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 141.0+yOff, 414.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 141.0)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 211.0+yOff, 768.0, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 211.0)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 34.5+yOff, 568.0, 135.83)], [NSValue valueWithCGPoint:CGPointMake(0.0, 34.5)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 121.75+yOff, 375.0, 135.68)], [NSValue valueWithCGPoint:CGPointMake(0.0, 121.75)], @{ @"offsetToHorizontalKeylineT": @(45.23) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 96.5+yOff, 320.0, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 96.5)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 147.0+yOff, 1024.0, 135.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 147.0)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 60.5+yOff, 736.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 60.5)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 141.0+yOff, 414.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 141.0)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 34.0+yOff, 480.0, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 34.0)], @{ @"offsetToHorizontalKeylineT": @(45.83) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 211.0+yOff, 768.0, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 211.0)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 48.25+yOff, 667.0, 135.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 48.25)], @{ @"offsetToHorizontalKeylineT": @(45.25) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemHotspot2 = [_overrideElementLayoutDescriptors objectForKey:@"hotspot 2"];
     if ((val = [override_elemHotspot2 objectForKey:@"layoutDescs"]))
@@ -882,10 +1062,15 @@
     
     NSArray *layoutDescs_elemHotspotCopy = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 218.0+yOff, 320.0, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 218.0)], @{ @"offsetToHorizontalKeylineT": @(45.83) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 266.9+yOff, 320.0, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 266.9)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 361.8+yOff, 414.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 361.8)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 518.2+yOff, 768.0, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 518.2)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 130.5+yOff, 568.0, 135.83)], [NSValue valueWithCGPoint:CGPointMake(0.0, 130.5)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 321.85+yOff, 375.0, 135.68)], [NSValue valueWithCGPoint:CGPointMake(0.0, 321.85)], @{ @"offsetToHorizontalKeylineT": @(45.23) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 266.9+yOff, 320.0, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 266.9)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 377.4+yOff, 1024.0, 135.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 377.4)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 184.7+yOff, 736.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 184.7)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 361.8+yOff, 414.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 361.8)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 130.0+yOff, 480.0, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 130.0)], @{ @"offsetToHorizontalKeylineT": @(45.83) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 518.2+yOff, 768.0, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 518.2)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 160.75+yOff, 667.0, 135.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 160.75)], @{ @"offsetToHorizontalKeylineT": @(45.25) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemHotspotCopy = [_overrideElementLayoutDescriptors objectForKey:@"hotspot copy"];
     if ((val = [override_elemHotspotCopy objectForKey:@"layoutDescs"]))
@@ -894,10 +1079,15 @@
     
     NSArray *layoutDescs_elemHotspotCopy2 = @[
     @[@4, [NSValue valueWithCGRect:CGRectMake(0.0, 338.0+yOff, 320.0, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 338.0)], @{ @"offsetToHorizontalKeylineT": @(45.83) } ],  // iphoneclassic_portrait
-    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 408.9+yOff, 320.0, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 408.9)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_portrait
-    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 545.8+yOff, 414.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 545.8)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_portrait
-    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 774.2+yOff, 768.0, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 774.2)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_portrait
+    @[@5, [NSValue valueWithCGRect:CGRectMake(0.0, 210.5+yOff, 568.0, 135.83)], [NSValue valueWithCGPoint:CGPointMake(0.0, 210.5)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(0.0, 488.6+yOff, 375.0, 135.68)], [NSValue valueWithCGPoint:CGPointMake(0.0, 488.6)], @{ @"offsetToHorizontalKeylineT": @(45.23) } ],  // iphone6_portrait
+    @[@6, [NSValue valueWithCGRect:CGRectMake(0.0, 408.9+yOff, 320.0, 135.85)], [NSValue valueWithCGPoint:CGPointMake(0.0, 408.9)], @{ @"offsetToHorizontalKeylineT": @(45.28) } ],  // iphone5_portrait
+    @[@15, [NSValue valueWithCGRect:CGRectMake(0.0, 569.4+yOff, 1024.0, 135.0)], [NSValue valueWithCGPoint:CGPointMake(0.0, 569.4)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_landscape
+    @[@19, [NSValue valueWithCGRect:CGRectMake(0.0, 288.2+yOff, 736.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 288.2)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_landscape
+    @[@20, [NSValue valueWithCGRect:CGRectMake(0.0, 545.8+yOff, 414.0, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 545.8)], @{ @"offsetToHorizontalKeylineT": @(42.92) } ],  // iphone6plus_portrait
+    @[@3, [NSValue valueWithCGRect:CGRectMake(0.0, 210.0+yOff, 480.0, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 210.0)], @{ @"offsetToHorizontalKeylineT": @(45.83) } ],  // iphoneclassic_landscape
+    @[@16, [NSValue valueWithCGRect:CGRectMake(0.0, 774.2+yOff, 768.0, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 774.2)], @{ @"offsetToHorizontalKeylineT": @(45.00) } ],  // ipad_portrait
+    @[@17, [NSValue valueWithCGRect:CGRectMake(0.0, 254.5+yOff, 667.0, 135.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 254.5)], @{ @"offsetToHorizontalKeylineT": @(45.25) } ],  // iphone6_landscape
     ];
     NSDictionary *override_elemHotspotCopy2 = [_overrideElementLayoutDescriptors objectForKey:@"hotspot copy 2"];
     if ((val = [override_elemHotspotCopy2 objectForKey:@"layoutDescs"]))
