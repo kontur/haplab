@@ -612,7 +612,7 @@
     [self applyLayout:layoutDescs_elemTextBlock4 toView:self.elemTextBlock4 format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemButtonnext = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(581.5, 205.5+yOff, 68.75, 70.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 205.5)]],  // iphoneclassic_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(581.5, 205.5+yOff, 68.75, 70.76)], [NSValue valueWithCGPoint:CGPointMake(0.0, 205.5)]],  // iphoneclassic_portrait
     @[@5, [NSValue valueWithCGRect:CGRectMake(448.3, 126.0+yOff, 67.92, 69.91)], [NSValue valueWithCGPoint:CGPointMake(0.0, 126.0)]],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(623.75, 299.5+yOff, 67.84, 69.84)], [NSValue valueWithCGPoint:CGPointMake(0.0, 299.5)]],  // iphone6_portrait
     @[@6, [NSValue valueWithCGRect:CGRectMake(577.5, 250.0+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 250.0)]],  // iphone5_portrait
@@ -695,7 +695,7 @@
     [self applyLayout:layoutDescs_elemTextBlockCopy toView:self.elemTextBlockCopy format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemRotate = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(79.0, 192.0+yOff, 166.50, 166.15)], [NSValue valueWithCGPoint:CGPointMake(0.0, 192.0)]],  // iphoneclassic_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(79.0, 192.0+yOff, 166.50, 167.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 192.0)]],  // iphoneclassic_portrait
     @[@5, [NSValue valueWithCGRect:CGRectMake(204.5, 439.5+yOff, 164.48, 164.48)], [NSValue valueWithCGPoint:CGPointMake(0.0, 439.5)]],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(108.0, 267.0+yOff, 164.30, 164.80)], [NSValue valueWithCGPoint:CGPointMake(0.0, 267.0)]],  // iphone6_portrait
     @[@6, [NSValue valueWithCGRect:CGRectMake(80.5, 227.0+yOff, 164.5, 164.5)], [NSValue valueWithCGPoint:CGPointMake(0.0, 227.0)]],  // iphone5_portrait
@@ -738,7 +738,7 @@
     @[@20, [NSValue valueWithCGRect:CGRectMake(582.57, 325.0+yOff, 96.57, 128.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 325.0)]],  // iphone6plus_portrait
     @[@3, [NSValue valueWithCGRect:CGRectMake(356.0, 114.0+yOff, 103.13, 137.50)], [NSValue valueWithCGPoint:CGPointMake(0.0, 114.0)]],  // iphoneclassic_landscape
     @[@16, [NSValue valueWithCGRect:CGRectMake(894.8, 467.0+yOff, 101.25, 135.01)], [NSValue valueWithCGPoint:CGPointMake(0.0, 467.0)]],  // ipad_portrait
-    @[@17, [NSValue valueWithCGRect:CGRectMake(809.95, 142.0+yOff, 101.81, 135.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 142.0)]],  // iphone6_landscape
+    @[@17, [NSValue valueWithCGRect:CGRectMake(517.45, 142.0+yOff, 101.81, 135.75)], [NSValue valueWithCGPoint:CGPointMake(0.0, 142.0)]],  // iphone6_landscape
     ];
     NSDictionary *override_elemHotspotTry = [_overrideElementLayoutDescriptors objectForKey:@"hotspot try"];
     if ((val = [override_elemHotspotTry objectForKey:@"layoutDescs"]))

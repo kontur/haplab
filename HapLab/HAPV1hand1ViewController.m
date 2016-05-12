@@ -155,7 +155,7 @@
             NSFontAttributeName: ([UIFont fontWithName:@"BebasNeue" size:20.7] ? [UIFont fontWithName:@"BebasNeue" size:20.7] : [UIFont systemFontOfSize:20.7]),
             NSParagraphStyleAttributeName: pstyle_elemTextBlock4
         };
-    elemTextBlock4.attributedText = [[NSAttributedString alloc] initWithString:@"TRY FOR YOURSELF" attributes:elemTextBlock4TextAttrs];
+    elemTextBlock4.attributedText = [[NSAttributedString alloc] initWithString:@"Start" attributes:elemTextBlock4TextAttrs];
 
     [rootView addSubview:self.elemTextBlock4];
     

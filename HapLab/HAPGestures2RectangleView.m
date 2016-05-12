@@ -16,10 +16,10 @@
     
     CGContextSaveGState(ctx);
         CGContextSetAlpha(ctx, 1.0);
-        CGContextScaleCTM(ctx, self.bounds.size.width/37.5, self.bounds.size.height/587.962962963);
-        CGContextTranslateCTM(ctx, 18.750, 293.981481481);
+        CGContextScaleCTM(ctx, self.bounds.size.width/19.5, self.bounds.size.height/587.962962963);
+        CGContextTranslateCTM(ctx, 9.750, 293.981481481);
         CGContextBeginPath(ctx);
-        CGContextAddRect(ctx, CGRectMake(-18.750, -293.981481481, 37.5, 587.962962963));
+        CGContextAddRect(ctx, CGRectMake(-9.750, -293.981481481, 19.5, 587.962962963));
         
         CGContextSetRGBFillColor(ctx, 0.909803922, 0.498039216, 0.239215686, 1.0);
         CGContextFillPath(ctx);

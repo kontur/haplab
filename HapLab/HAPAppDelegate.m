@@ -1,53 +1,53 @@
 #import "HAPAppDelegate.h"
-#import "HAPOcclusionIntroViewController.h"
-#import "HAPGestures6ViewController.h"
-#import "HAPOcclusion4ViewController.h"
-#import "HAPOnboardingStep5NoViewController.h"
-#import "HAPTouchTargetsViewController.h"
-#import "HAPV2hand2ViewController.h"
-#import "HAPOcclusion1ViewController.h"
 #import "HAPTouchTargetsStartViewController.h"
-#import "HAPV1hand3ViewController.h"
 #import "HAPGesturesIntroViewController.h"
-#import "HAPOnboardingStartViewController.h"
-#import "HAPV1handIntroViewController.h"
-#import "HAPV1hand4ViewController.h"
-#import "HAPTouchTargets6ViewController.h"
-#import "HAPStartViewController.h"
-#import "HAPTouchTargets2ViewController.h"
-#import "HAPOnboardingStep3ViewController.h"
-#import "HAPV2hand3ViewController.h"
-#import "HAPV1hand5ViewController.h"
-#import "HAPTouchTargets11ViewController.h"
-#import "HAPOcclusion5ViewController.h"
-#import "HAPGestures2ViewController.h"
-#import "HAPV1hand1ViewController.h"
-#import "HAPTouchTargets8ViewController.h"
-#import "HAPTouchTargets3ViewController.h"
-#import "HAPOcclusion2ViewController.h"
-#import "HAPV1hand6ViewController.h"
-#import "HAPGestures5ViewController.h"
-#import "HAPV1hand7ViewController.h"
-#import "HAPOnboardingStep4ViewController.h"
-#import "HAPGripsStartViewController.h"
-#import "HAPV1hand8ViewController.h"
-#import "HAPTouchTargets10ViewController.h"
-#import "HAPTouchTargets4ViewController.h"
-#import "HAPV1hand2ViewController.h"
-#import "HAPV1handViewController.h"
-#import "HAPOnboardingStep2ViewController.h"
-#import "HAPTouchTargets5ViewController.h"
-#import "HAPV2hand4ViewController.h"
-#import "HAPOcclusion3ViewController.h"
-#import "HAPOnboardingStep5YesViewController.h"
-#import "HAPGestures3ViewController.h"
-#import "HAPV2hand1ViewController.h"
-#import "HAPTouchTargets7ViewController.h"
 #import "HAPV2hand5ViewController.h"
+#import "HAPV1handViewController.h"
+#import "HAPV1hand1ViewController.h"
+#import "HAPOcclusionIntroViewController.h"
+#import "HAPV2hand1ViewController.h"
+#import "HAPV2hand2ViewController.h"
+#import "HAPTouchTargets4ViewController.h"
 #import "HAPGestures1ViewController.h"
-#import "HAPV2handIntroViewController.h"
-#import "HAPGestures4ViewController.h"
+#import "HAPGripsStartViewController.h"
+#import "HAPOnboardingStep5NoViewController.h"
+#import "HAPOnboardingStep3ViewController.h"
+#import "HAPOcclusion2ViewController.h"
 #import "HAPV2hand6ViewController.h"
+#import "HAPGestures3ViewController.h"
+#import "HAPOcclusion4ViewController.h"
+#import "HAPV2hand3ViewController.h"
+#import "HAPV1hand3ViewController.h"
+#import "HAPGestures2ViewController.h"
+#import "HAPTouchTargets7ViewController.h"
+#import "HAPStartViewController.h"
+#import "HAPTouchTargetsViewController.h"
+#import "HAPTouchTargets10ViewController.h"
+#import "HAPOnboardingStep4ViewController.h"
+#import "HAPTouchTargets6ViewController.h"
+#import "HAPTouchTargets5ViewController.h"
+#import "HAPV1hand4ViewController.h"
+#import "HAPGestures4ViewController.h"
+#import "HAPOnboardingStep2ViewController.h"
+#import "HAPV2handIntroViewController.h"
+#import "HAPTouchTargets3ViewController.h"
+#import "HAPV1hand5ViewController.h"
+#import "HAPV2hand4ViewController.h"
+#import "HAPTouchTargets11ViewController.h"
+#import "HAPOnboardingStartViewController.h"
+#import "HAPOnboardingStep5YesViewController.h"
+#import "HAPV1hand6ViewController.h"
+#import "HAPTouchTargets2ViewController.h"
+#import "HAPOcclusion5ViewController.h"
+#import "HAPGestures6ViewController.h"
+#import "HAPV1hand7ViewController.h"
+#import "HAPV1handIntroViewController.h"
+#import "HAPOcclusion3ViewController.h"
+#import "HAPV1hand2ViewController.h"
+#import "HAPOcclusion1ViewController.h"
+#import "HAPV1hand8ViewController.h"
+#import "HAPGestures5ViewController.h"
+#import "HAPTouchTargets8ViewController.h"
 
 
 // Dummy class for distinguishing root navigation controller.
@@ -65,55 +65,55 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UIColor *baseTintColor = [UIColor colorWithRed:0.278902247 green:0.521800944 blue:0.688767695 alpha:1.0];
-    [UIView appearanceWhenContainedIn:[HAPOcclusionIntroViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPGestures6ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOcclusion4ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOnboardingStep5NoViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargetsViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV2hand2ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOcclusion1ViewController class], nil].tintColor = baseTintColor;
     [UIView appearanceWhenContainedIn:[HAPTouchTargetsStartViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand3ViewController class], nil].tintColor = baseTintColor;
     [UIView appearanceWhenContainedIn:[HAPGesturesIntroViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOnboardingStartViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1handIntroViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand4ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets6ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPStartViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets2ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOnboardingStep3ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV2hand3ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand5ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets11ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOcclusion5ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPGestures2ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand1ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets8ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets3ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOcclusion2ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand6ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPGestures5ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand7ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOnboardingStep4ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPGripsStartViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand8ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets10ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets4ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1hand2ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV1handViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOnboardingStep2ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets5ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV2hand4ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOcclusion3ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPOnboardingStep5YesViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPGestures3ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV2hand1ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPTouchTargets7ViewController class], nil].tintColor = baseTintColor;
     [UIView appearanceWhenContainedIn:[HAPV2hand5ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1handViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand1ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOcclusionIntroViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV2hand1ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV2hand2ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets4ViewController class], nil].tintColor = baseTintColor;
     [UIView appearanceWhenContainedIn:[HAPGestures1ViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPV2handIntroViewController class], nil].tintColor = baseTintColor;
-    [UIView appearanceWhenContainedIn:[HAPGestures4ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPGripsStartViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOnboardingStep5NoViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOnboardingStep3ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOcclusion2ViewController class], nil].tintColor = baseTintColor;
     [UIView appearanceWhenContainedIn:[HAPV2hand6ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPGestures3ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOcclusion4ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV2hand3ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand3ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPGestures2ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets7ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPStartViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargetsViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets10ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOnboardingStep4ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets6ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets5ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand4ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPGestures4ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOnboardingStep2ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV2handIntroViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets3ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand5ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV2hand4ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets11ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOnboardingStartViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOnboardingStep5YesViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand6ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets2ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOcclusion5ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPGestures6ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand7ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1handIntroViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOcclusion3ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand2ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPOcclusion1ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPV1hand8ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPGestures5ViewController class], nil].tintColor = baseTintColor;
+    [UIView appearanceWhenContainedIn:[HAPTouchTargets8ViewController class], nil].tintColor = baseTintColor;
     [UINavigationBar appearanceWhenContainedIn:[HAPRootNavController class], nil].tintColor = baseTintColor;
     
     UIColor *primaryTintColor = [UIColor colorWithRed:0.927795848 green:0.570460827 blue:0.305864949 alpha:1.0];

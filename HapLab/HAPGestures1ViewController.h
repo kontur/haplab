@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPGestures2ViewController.h"
 #import "HAPStartViewController.h"
+#import "HAPGestures2ViewController.h"
 #import "HAPGestures1BG_backgroundView.h"
 #import "HAPGestures1TextBackgroundView.h"
 #import "HAPGestures1SwipeleftView.h"

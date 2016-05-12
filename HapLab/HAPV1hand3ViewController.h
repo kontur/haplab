@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPStartViewController.h"
 #import "HAPV1hand4ViewController.h"
+#import "HAPStartViewController.h"
 #import "HAPV1hand3Backgroundonethumb2View.h"
 #import "HAPV1hand3ButtonnextView.h"
 #import "HAPV1hand3TouchTargetView.h"

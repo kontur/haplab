@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPOcclusion5ViewController.h"
 #import "HAPStartViewController.h"
+#import "HAPOcclusion5ViewController.h"
 #import "HAPOcclusion4BG_backgroundView.h"
 #import "HAPOcclusion4TextBackgroundView.h"
 #import "HAPOcclusion4TextBackgroundCopyView.h"

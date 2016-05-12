@@ -149,12 +149,6 @@
     elemButton.tintColor = [UIColor colorWithRed:0.797751913 green:0.253807573 blue:0.202003350 alpha:1.0];
     elemButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     elemButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    {   // align button contents within frame using insets
-        UIEdgeInsets insets;
-        insets = elemButton.titleEdgeInsets;
-        insets.top += -1.1;
-        elemButton.titleEdgeInsets = insets;
-    }
     elemButton.layer.borderWidth = 2.3;
     elemButton.layer.borderColor = [elemButton titleColorForState:UIControlStateNormal].CGColor;
     elemButton.layer.cornerRadius = 11.3;

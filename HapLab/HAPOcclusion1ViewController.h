@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPOcclusion2ViewController.h"
 #import "HAPStartViewController.h"
+#import "HAPOcclusion2ViewController.h"
 #import "HAPOcclusion1BG_backgroundView.h"
 #import "HAPOcclusion1ButtonnextView.h"
 #import "HAPOcclusion1ScreenocclusionView.h"

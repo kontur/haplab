@@ -35,9 +35,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPV2handIntroViewController.h"
 #import "HAPOcclusionIntroViewController.h"
 #import "HAPV1handIntroViewController.h"
+#import "HAPV2handIntroViewController.h"
 #import "HAPGripsStartBG_backgroundView.h"
 #import "HAPGripsStartRectangleView.h"
 #import "HAPGripsStartButtonnextView.h"

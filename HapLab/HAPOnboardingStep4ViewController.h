@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPOnboardingStep5NoViewController.h"
 #import "HAPOnboardingStep5YesViewController.h"
+#import "HAPOnboardingStep5NoViewController.h"
 #import "HAPOnboardingStep4BG_backgroundCopyView.h"
 #import "HAPOnboardingStep4TouchTargetHardView.h"
 #import "HAPOnboardingStep4TouchTargetEasyView.h"

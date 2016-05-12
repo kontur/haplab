@@ -150,13 +150,13 @@
         
         CGContextSaveGState(ctx);
         CGContextScaleCTM(ctx, 1.0, 1.0);
-        CGContextSetRGBFillColor(ctx, 0.215686275, 0.447058824, 0.627450980, 0.5);
+        CGContextSetRGBFillColor(ctx, 0.215686274, 0.447058823, 0.627450980, 0.5);
         CGContextAddPath(ctx, s_paths[0]);
         CGContextFillPath(ctx);
-        CGContextSetRGBFillColor(ctx, 0.215686275, 0.447058824, 0.627450980, 1.0);
+        CGContextSetRGBFillColor(ctx, 0.215686274, 0.447058823, 0.627450980, 1.0);
         CGContextAddPath(ctx, s_paths[1]);
         CGContextFillPath(ctx);
-        CGContextSetRGBFillColor(ctx, 0.215686275, 0.447058824, 0.627450980, 1.0);
+        CGContextSetRGBFillColor(ctx, 0.215686274, 0.447058823, 0.627450980, 1.0);
         CGContextAddPath(ctx, s_paths[2]);
         CGContextFillPath(ctx);
         

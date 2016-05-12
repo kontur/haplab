@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPTouchTargetsViewController.h"
 #import "HAPStartViewController.h"
+#import "HAPTouchTargetsViewController.h"
 #import "HAPTouchTargets8BG_backgroundCopyView.h"
 #import "HAPTouchTargets8Buttonclose2View.h"
 

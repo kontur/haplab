@@ -164,12 +164,6 @@
     elemButton.tintColor = [UIColor colorWithRed:0.797751913 green:0.253807573 blue:0.202003350 alpha:1.0];
     elemButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     elemButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    {   // align button contents within frame using insets
-        UIEdgeInsets insets;
-        insets = elemButton.titleEdgeInsets;
-        insets.top += -1.1;
-        elemButton.titleEdgeInsets = insets;
-    }
     elemButton.layer.borderWidth = 2.3;
     elemButton.layer.borderColor = [elemButton titleColorForState:UIControlStateNormal].CGColor;
     elemButton.layer.cornerRadius = 11.3;
@@ -187,12 +181,6 @@
     elemButtonCopy.tintColor = [UIColor colorWithRed:0.797751913 green:0.797751913 blue:0.797751913 alpha:1.0];
     elemButtonCopy.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     elemButtonCopy.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    {   // align button contents within frame using insets
-        UIEdgeInsets insets;
-        insets = elemButtonCopy.titleEdgeInsets;
-        insets.top += -1.1;
-        elemButtonCopy.titleEdgeInsets = insets;
-    }
     elemButtonCopy.layer.borderWidth = 2.3;
     elemButtonCopy.layer.borderColor = [elemButtonCopy titleColorForState:UIControlStateNormal].CGColor;
     elemButtonCopy.layer.cornerRadius = 11.3;
@@ -210,12 +198,6 @@
     elemButtonCopy2.tintColor = [UIColor colorWithRed:0.797751913 green:0.797751913 blue:0.797751913 alpha:1.0];
     elemButtonCopy2.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     elemButtonCopy2.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    {   // align button contents within frame using insets
-        UIEdgeInsets insets;
-        insets = elemButtonCopy2.titleEdgeInsets;
-        insets.top += -1.1;
-        elemButtonCopy2.titleEdgeInsets = insets;
-    }
     elemButtonCopy2.layer.borderWidth = 2.3;
     elemButtonCopy2.layer.borderColor = [elemButtonCopy2 titleColorForState:UIControlStateNormal].CGColor;
     elemButtonCopy2.layer.cornerRadius = 11.3;
@@ -233,12 +215,6 @@
     elemButtonCopy3.tintColor = [UIColor colorWithRed:0.797751913 green:0.797751913 blue:0.797751913 alpha:1.0];
     elemButtonCopy3.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     elemButtonCopy3.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    {   // align button contents within frame using insets
-        UIEdgeInsets insets;
-        insets = elemButtonCopy3.titleEdgeInsets;
-        insets.top += -1.1;
-        elemButtonCopy3.titleEdgeInsets = insets;
-    }
     elemButtonCopy3.layer.borderWidth = 2.3;
     elemButtonCopy3.layer.borderColor = [elemButtonCopy3 titleColorForState:UIControlStateNormal].CGColor;
     elemButtonCopy3.layer.cornerRadius = 11.3;
@@ -256,12 +232,6 @@
     elemButtonCopy4.tintColor = [UIColor colorWithRed:0.797751913 green:0.797751913 blue:0.797751913 alpha:1.0];
     elemButtonCopy4.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     elemButtonCopy4.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    {   // align button contents within frame using insets
-        UIEdgeInsets insets;
-        insets = elemButtonCopy4.titleEdgeInsets;
-        insets.top += -1.1;
-        elemButtonCopy4.titleEdgeInsets = insets;
-    }
     elemButtonCopy4.layer.borderWidth = 2.3;
     elemButtonCopy4.layer.borderColor = [elemButtonCopy4 titleColorForState:UIControlStateNormal].CGColor;
     elemButtonCopy4.layer.cornerRadius = 11.3;

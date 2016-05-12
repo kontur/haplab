@@ -660,7 +660,7 @@
     [self applyLayout:layoutDescs_elemTextBlock4 toView:self.elemTextBlock4 format:format associatedData:nil flowIsHorizontal:flowIsHoriz flowPosPtr:&flowPos];
     
     NSArray *layoutDescs_elemButtonnext = @[
-    @[@4, [NSValue valueWithCGRect:CGRectMake(125.5, 251.5+yOff, 68.75, 70.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 251.5)]],  // iphoneclassic_portrait
+    @[@4, [NSValue valueWithCGRect:CGRectMake(125.5, 251.5+yOff, 68.75, 71.28)], [NSValue valueWithCGPoint:CGPointMake(0.0, 251.5)]],  // iphoneclassic_portrait
     @[@5, [NSValue valueWithCGRect:CGRectMake(250.0, 171.5+yOff, 67.92, 69.89)], [NSValue valueWithCGPoint:CGPointMake(0.0, 171.5)]],  // iphone5_landscape
     @[@18, [NSValue valueWithCGRect:CGRectMake(153.5, 345.0+yOff, 67.84, 69.82)], [NSValue valueWithCGPoint:CGPointMake(0.0, 345.0)]],  // iphone6_portrait
     @[@6, [NSValue valueWithCGRect:CGRectMake(126.0, 295.5+yOff, 67.92, 70.38)], [NSValue valueWithCGPoint:CGPointMake(0.0, 295.5)]],  // iphone5_portrait

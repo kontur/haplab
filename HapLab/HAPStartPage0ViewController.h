@@ -35,8 +35,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HAPGripsStartViewController.h"
 #import "HAPStartViewController.h"
+#import "HAPGripsStartViewController.h"
 #import "HAPStartPage0BackgroundShapeView.h"
 #import "HAPStartPage0NavbarBackgroundView.h"
 #import "HAPStartPage0PageMarkerEmptyCopyView.h"
